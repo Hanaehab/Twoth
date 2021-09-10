@@ -868,6 +868,7 @@ background-color: rgba(122, 137, 110, 0);
     font-size: 1em;
     padding-left: 18%;
     padding-bottom: 2%;
+    line-height: 1.4em;
 }
 
 
@@ -929,3 +930,19 @@ background-color: rgba(122, 137, 110, 0);
     color: #1D321E;
     padding-left: 2%;
 }
+
+#ourTeam-content .title{
+    padding-top: 7%;
+    padding-left: 3.5%;
+    padding-bottom: 5%;
+    font-weight: bold;
+    font-size: 2.1em;
+    color: rgba(151, 74, 22, 0.9);
+}
+
+#ourTeam-content img{
+    border: 0.2px solid rgba(0, 0, 0, 0.198);
+    box-sizing: border-box;
+    border-radius: 40%;
+}
+
