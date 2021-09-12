@@ -946,3 +946,262 @@ background-color: rgba(122, 137, 110, 0);
     border-radius: 40%;
 }
 
+.firstProfileComponent{
+    padding-top: 5%;
+}
+
+.firstProfileComponent h1{
+    font-weight: 500;
+    font-size: 3em;
+    color: #1D321E;
+    padding-left: 5%;
+    padding-top: 8%;
+    background:rgba(151, 74, 22, 0);
+}
+
+.firstProfileComponent h3{
+    font-weight: normal;
+    font-size: 1.5em;
+    color: rgba(151, 74, 22, 0.9);
+    background:rgba(151, 74, 22, 0);
+    padding-left: 5%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+.firstProfileComponent h5{
+    background:rgba(151, 74, 22, 0);
+    padding-top: 4%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    font-weight: bold;
+    font-size: 1em;
+    color: rgba(122, 137, 110, 0.8);
+}
+
+.firstProfileComponent h4{
+    background:rgba(151, 74, 22, 0);
+    padding-left: 5%;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    color: #1D321E;
+}
+
+.firstProfileComponent hr{
+    width: 70%;
+    border: 0.05px solid #1d321ea1;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.firstProfileComponent b{
+    background:rgba(151, 74, 22, 0);
+    font-weight: lighter;
+}
+
+
+.secondProfileComponent h5{
+    padding-top: 5%;
+    padding-left: 5%;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    color: #1D321E;
+    text-align: justify;
+}
+
+.secondProfileComponent button{
+    margin-top: 7%;
+    width: 50%;
+    height: 10%;
+    background: rgba(151, 74, 22, 0.2);
+    border: 1.3px solid rgba(151, 74, 22, 0.3);
+    box-sizing: border-box;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    color: #1D321E;
+}
+
+.secondProfileComponent .icons{
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 0;
+    background-color: rgba(122, 137, 110, 0);
+}
+
+.secondProfileComponent{
+    padding-bottom: 4%;
+}
+
+.fourthProfileComponent{
+    padding-bottom: 7%;
+}
+
+.fourthProfileComponent h2{
+    font-weight: bold;
+    font-size: 2em;
+    color: #974A16;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.card h5{
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    color: #1D321E;
+}
+
+.card p{
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.3em;
+    color: rgba(29, 50, 30, 0.7);
+}
+.card a{
+    background: none;
+    border: none;
+    font-size: 1.1em;
+    color: #974A16;
+    padding-left: 0%;
+}
+
+.card a:hover{
+    background: none;
+    color: #974a1670;
+}
+
+.card hr{
+    width: 100%;
+    border: 1px solid #E6E4E4;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.card span{
+    color: #AAA8A8;
+    font-size: 0.8em;
+}
+
+.fifthProfileComponent{
+    padding-top: 4%;
+    padding-left: 5%;
+    padding-bottom: 8%;
+    background: rgba(122, 137, 110, 0.2);
+    height: 90%;
+    margin-bottom: 8%;
+    
+}
+
+.fifthProfileComponent h2{
+    display: block;
+    width: 40%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 1.2em;
+    padding-bottom: 2%;
+    color: rgba(151, 74, 22, 0.8);
+    background-color: rgba(122, 137, 110, 0);
+}
+
+.fifthProfileComponent img{
+    width: 26%;
+    float: right;
+    position: relative;
+    right: 5%;
+    border-radius: 20px;
+    background-color: rgba(122, 137, 110, 0);
+
+
+}
+
+.fifthProfileComponent h5{
+    display:block;
+    width: 55%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3em;
+    line-height: 1.2em;
+    color: #1D321E;
+    padding-bottom: 5%;
+    background-color: rgba(122, 137, 110, 0);
+}
+
+.fifthProfileComponent div{
+    display: block;
+    width: 50%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    color: #1D321E;
+    background-color: rgba(122, 137, 110, 0);
+}
+.fifthProfileComponent ul{
+    padding-top: 2%;
+    display: block;
+    width: 100%;
+    font-weight: normal;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    background-color: rgba(122, 137, 110, 0);
+} 
+
+.fifthProfileComponent li{
+    background-color: rgba(122, 137, 110, 0);
+}
+
+.sixthProfileComponent{
+    padding-bottom: 45%;
+}
+.sixthProfileComponent img{
+    float: left;
+    width: 40%;
+    padding-left: 13%;
+}
+
+.sixthProfileComponent #testimonials{
+    float: right;
+}
+
+#testimonials h2{
+    padding-top: 15%;
+    font-weight: bold;
+    font-size: 2.2em;
+    line-height: 1.5em;
+    color: #974A16;
+    padding-left: 3%;
+}
+
+#testimonials h4{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 60%;
+    color: #1D321E;
+    font-size: 1.4em;
+    padding-left: 3%;
+}
+
+#testimonials button{
+    margin-left: 3%;
+    width: 50%;
+    height: 60%;
+    background: rgba(151, 74, 22, 0.2);
+    border: 1.3px solid rgba(151, 74, 22, 0.3);
+    box-sizing: border-box;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    color: #1D321E;
+    line-height: 3em;
+}
+
+
+#logos img{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 4%;
+}
