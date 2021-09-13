@@ -1205,3 +1205,75 @@ background-color: rgba(122, 137, 110, 0);
     margin-right: 2%;
     margin-top: 4%;
 }
+
+#fees-content h1{
+    padding-top: 8%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+    font-weight: bold;
+    font-size: 3.1em;
+    color: #974A16;
+}
+
+.feesComponent h5{
+    padding-left: 15%;
+    padding-bottom: 2%;
+    font-weight: bold;
+    font-size: 1.6em;
+    color: #1D321E;
+    
+}
+
+.feesComponent p{
+    padding-left: 15%;
+    width: 80%;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    color: #7A896E;
+    text-align: justify;
+}
+
+.feesComponent a{
+    padding-left: 15%;
+
+}
+
+.feesComponent h6{
+    display: inline;
+    font-size: 1.1em;
+    line-height: 2em;
+    color: #1D321E;
+
+}
+
+.feesComponent span{
+    font-size: 1.1em;
+    line-height: 2em;
+    color: #7A896E;
+}
+
+.feesBlog h2{
+    font-weight: 600;
+    font-size: 2.5em;
+    margin: auto;
+    color: #974A16;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.facialFees h5{
+    padding-left: 7%;
+    font-weight: bold;
+    font-size: 2em;
+    color: #1D321E;
+}
+
+.facialFees p{
+    padding-left: 7%;
+    width: 80%;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    color: #7A896E;
+    text-align: justify;
+    padding-bottom: 4%;
+}
