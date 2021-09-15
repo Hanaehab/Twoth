@@ -1706,3 +1706,38 @@ font-weight: bold;
   #careersApplication-content #uploadedFile{
       font-size: 1.3em ;
   }
+
+#polices-content h1{
+    font-size: 3em;
+    color: #1D321E;
+    padding-top: 8%;
+    font-weight: bold;
+    padding-bottom: 3%;
+
+}
+
+#polices-content p{
+    color: #1D321E;
+    font-size: 1.2em;
+    padding-bottom: 3%;
+  }
+
+#polices-content h4{
+    color: #974A16;
+    font-weight:bold;
+    padding-bottom: 1%;
+}
+
+#polices-content ul{
+    color: #1D321E;
+    font-size: 1.2em;
+    padding-bottom: 3%;
+    line-height: 2em;
+}
+
+#polices-content ol{
+    color: #1D321E;
+    font-size: 1.2em;
+    padding-bottom: 3%;
+    line-height: 2em;
+}
