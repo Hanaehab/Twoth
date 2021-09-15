@@ -1580,3 +1580,129 @@ font-weight: bold;
     float: right;
     padding-right: 4%;
 }
+
+#careersDescription-content h1{
+    font-weight: bold;
+    font-size: 3em;
+    color: #974A16;
+    padding-top: 8%;
+    padding-bottom: 5%;
+
+}
+
+#careersDescription-content a{
+    text-decoration: none;
+    font-size: 1.4em;
+    padding-left: 1%;
+    padding-right: 10%;
+    color: #1D321E;
+}
+
+#careersDescription-content hr{
+    border-color: #1d321e86;
+    margin:0;
+}
+
+#careersDescription-content p{
+    padding-top: 1%;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    text-align: justify;
+    color: rgba(29, 50, 30, 0.9);
+    padding-bottom:4%;
+}
+#careersDescription-content h3{
+    color: rgba(151, 74, 22, 0.8);
+    font-weight: bold;
+    font-size: 1.4em;
+
+}
+#careersDescription-content ul{
+    padding-top: 1%;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    text-align: justify;
+    color: rgba(29, 50, 30, 0.9);
+    padding-bottom:4%;
+}
+
+#careersDescription-content button{
+    background: #1D321E;
+    border-radius: 25px;
+    width: 20%;
+    font-weight:normal;
+    font-size: 1.6em;
+    line-height: 2em;
+    color: #EAE4C8;
+    margin: auto;
+}
+
+#careersApplication-content h1{
+    font-weight: bold;
+    font-size: 3em;
+    color: #974A16;
+    padding-top: 8%;
+    padding-bottom: 5%;
+
+}
+
+#careersApplication-content a{
+    text-decoration: none;
+    font-size: 1.4em;
+    padding-left: 1%;
+    padding-right: 10%;
+    color: #1D321E;
+}
+
+#careersApplication-content hr{
+    border-color: #1d321e86;
+    margin:0;
+}
+
+#careersApplication-content label{
+    color: rgba(29, 50, 30, 0.8);
+    font-size: 1.4em;
+}
+
+#careersApplication-content input[type=text], select, textarea {
+    width: 50%; 
+    border: none;
+    padding: 1%; 
+    border-radius: 10px; 
+    box-sizing: border-box; 
+    margin-top: 1%; 
+    margin-bottom: 6%; 
+    background: rgba(151, 74, 22, 0.15);
+    resize: vertical; 
+    text-align: center;
+    
+  }
+  
+#careersApplication-content  input[type=submit] {
+    width: 25%;
+    background-color: #1D321E;
+    color: #EAE4C8;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    font-size: 1.3em;
+  }
+  
+ 
+#careersApplication-content input[type=submit]:hover {
+    background-color: #041d05;
+  }
+
+
+#careersApplication-content #upload{
+    color: #1C41C1;
+    font-size: 1.2em;
+    padding-left: 0%;
+  }
+
+  #careersApplication-content #uploadedFile{
+      font-size: 1.3em ;
+  }

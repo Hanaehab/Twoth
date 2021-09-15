@@ -62,60 +62,72 @@
             </div>
         </nav>
     </header>
-    <div id="careersDescription-content" class="container-fluid no-padding" style="padding-left:5%; padding-right:6%">
+    <div id="careersApplication-content" class="container-fluid no-padding" style="padding-left:5%; padding-right:6%">
         <h1>Dental Implantologist</h1>
         <hr style="margin-bottom: 2%;">
-        <a href="#"> <b>Role Overview </b></a>
-        <a href="jobApplication.html">Application</a>
+        <a href="jobDescription.html"> Role Overview </a>
+        <a href="#"> <b>Application </b></a>
         <hr style="margin-top: 2%;">
+        <div style="float: right; padding-top: 2%; font-size: 1.2em; display: inline;"> <div style="display: inline; color: rgb(255, 0, 0);">*</div> Required</div>
 
-        <p style="padding-top: 4%;">Nec sit ac, ut cursus neque nisl fames erat amet. Faucibus faucibus ut vel laoreet
-            duis morbi massa neque,
-            nunc. Rhoncus scelerisque phasellus proin odio sed. Aenean aliquet semper semper auctor. Dolor quisque quam
-            arcu eu congue nibh nisi, ac. Amet pharetra in facilisis morbi mauris eros nunc.
-            Suspendisse enim id a, vulputate sit quis tortor. </p>
+        <div class="container" style="padding-top: 6%;">
+            <form action="action_page.php">
+          
+              <label for="fname" style="display: block;">First Name<div style="display: inline; color: rgb(255, 0, 0);">*</div> </label>
+              <input type="text" id="fname" name="firstname" placeholder="Enter your first name">
+          
+              <label for="lname" style="display: block;">Last Name <div style="display: inline; color: rgb(255, 0, 0);">*</div></label>
+              <input type="text" id="lname" name="lastname" placeholder="Enter your last name">
+          
+              <label for="email" style="display: block;">Email <div style="display: inline; color: rgb(255, 0, 0);">*</div></label>
+              <input type="text" id="email" name="email" placeholder="Enter your personal email address">
+          
+              <label for="phone" style="display: block;">Phone <div style="display: inline; color: rgb(255, 0, 0);">*</div></label>
+              <input type="text" id="phone" name="phone" placeholder="Enter your mobile number">
 
-        <h3>Job Summary</h3>
-        <p>Euismod tincidunt libero eget fames pellentesque non sapien. Lectus tempus nulla vitae, eu condimentum in
-            potenti vivamus ac. Sed eros volutpat consectetur commodo, vestibulum. Nulla ut nisl dolor tincidunt mattis
-            aliquam faucibus vulputate fermentum. Eget quisque id lorem eu, interdum euismod. Viverra turpis enim, vel
-            augue montes, eget ut.
-            Feugiat vehicula aenean egestas integer eget nibh dui, donec. Tellus tristique faucibus euismod nunc sed sit
-            lobortis arcu ultrices. Mattis eget at mattis bibendum blandit urna tincidunt nisi. Gravida vitae sagittis
-            amet diam odio arcu, a feugiat. Id amet, lorem tristique etiam lorem libero. Montes, urna, cursus tortor
-            tellus ultrices non ut. Orci sed ultrices nulla molestie id. Egestas fermentum maecenas arcu, id id feugiat.
-            Ac quam.
-        </p>
+              <label for="workingDays" style="display: block;">How many days can you work per week? <div style="display: inline; color: rgb(255, 0, 0);">*</div></label>
+              <input type="text" id="workingDays" name="workingDays" placeholder="Enter any relevant URLs here">
 
-        <h3>Duties & Responsibilities</h3>
-        <ul>
-            <li>Euismod tincidunt libero eget fames pellentesque non sapien. </li>
-            <li>Lectus tempus nulla vitae, eu condimentum in potenti vivamus ac.</li>
-            <li> Sed eros volutpat consectetur commodo, vestibulum.</li>
-            <li> Nulla ut nisl dolor tincidunt mattis aliquam faucibus vulputate fermentum.</li>
-            <li> Eget quisque id lorem eu, interdum euismod. Viverra turpis enim, vel augue montes, eget ut.</li>
-            <li>Feugiat vehicula aenean egestas integer eget nibh dui, donec.</li>
-            <li>Tellus tristique faucibus euismod nunc sed sit lobortis arcu ultrices.</li>
-            <li>Mattis eget at mattis bibendum blandit urna tincidunt nisi. Gravida vitae sagittis amet diam odio arcu,
-                a feugiat. Id amet, lorem tristique etiam lorem libero.</li>
-            <li> Montes, urna, cursus tortor tellus ultrices non ut. Orci sed ultrices nulla molestie id. Egestas
-                fermentum maecenas arcu, id id feugiat. Ac quam.</li>
-        </ul>
+              <label for="coverLetter" style="display: block;">Cover Letter</label>
+              <div style="display: flex; padding-top: 1%; padding-bottom: 1%;">
+                <a id="upload" href="" onclick='coverLetter()'>Upload</a>
+                <div  id="uploadedFile">DrFlanCoverLetter.pdf 
+                  <button style="border: none;"><img src="images/close.svg" alt=""></button>
+                </div> 
+              </div>
+              <input type="text" id="coverLetter" name="coverLetter" placeholder="Enter any relevant URLs here">
 
-        <h3>Requirements & Qualifications</h3>
-        <ul>
-            <li>Euismod tincidunt </li>
-            <li>Lectus tempus nulla vitae</li>
-            <li>Sed eros volutpat consectetur</li>
-            <li>Nulla ut nisl dolor</li>
-            <li>Eget quisque id lorem eu, interdum euismod</li>
-            <li>Feugiat vehicula</li>
-            <li>Tellus tristique faucibus</li>
-            <li>Mattis eget at mattis</li>
-            <li>Montes, urna</li>
-        </ul>
+              <!--<script>
+                  function coverLetter(){
+                      document.getElementById("coverLetter").style.display= "block";
+                  }
+              </script>-->
 
-        <div style="text-align: center;"><button>Apply now</button></div>
+              
+
+              <label for="cv" style="display: block;">Resume/CV <div style="display: inline; color: rgb(255, 0, 0);">*</div></label>
+              <div style="display: flex; padding-top: 1%; padding-bottom: 1%;">
+                <a id="upload" href="" onclick='cv()'>Upload</a>
+                <div  id="uploadedFile">DrFlanCV.pdf
+                  <button style="border: none;"><img src="images/close.svg" alt=""></button>
+                </div> 
+              </div>
+              <input type="text" id="cv" name="cv" placeholder="Enter any relevant URLs here">
+
+              <label for="Portfolio" style="display: block;">Portfolio<div style="display: inline; color: rgb(255, 0, 0);">*</div></label>
+              <div style="display: flex; padding-top: 1%; padding-bottom: 1%;">
+                <a id="upload" href="" onclick='portfolio()'>Upload</a>
+                <div  id="uploadedFile">DrFlanPortfolio.pdf 
+                  <button style="border: none;"><img src="images/close.svg" alt=""></button>
+                </div> 
+              </div>
+              <input type="text" id="Portfolio" name="Portfolio" placeholder="Enter any relevant URLs here">
+            
+              <div ><input type="submit" value="Submit Application" style="align-self: center;"></div>
+              
+          
+            </form>
+          </div>
     </div>
 
     <footer class="panel-footer">
