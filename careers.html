@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Twoth</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div id="top-label">DENTISTS RECOMMEND 2 EXAMS PER YEAR. BOOK YOUR EXAM TODAY.</div>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container" id="header">
+                <div class="navbar-brand">
+                    <a href="index.html" class="pull-left visible-md visible-lg">
+                        <h1 class="logo">Twoth</h1>
+                    </a>
+                </div>
+                <div class="navbar-left">
+                    <div class="nav-item dropdown" style="width:fit-content; float: left;">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Treatments
+
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </a>
+                    </div>
+
+                    <div class="nav-item dropdown" style="width:fit-content; float: left;">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Our Fees
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </a>
+                    </div>
+
+                    <div class="nav-item" style="padding-top:1.5%; float: left;">
+                        <a href="/"> Shop </a>
+                    </div>
+
+                    <div class="nav-item" style="padding-top:1.5%; float: left;">
+                        <a href="ourTeam.html"> Our Team </a>
+                    </div>
+                </div>
+                <div class="navbar-right">
+                    <a href="/"> CALL NOW </a>
+                    <button>BOOK NOW</button>
+                    <img src="images/cart.svg" style='height: 28px ; width: 28px;' />
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="careers-content" class="container-fluid no-padding" style="padding-left:0%; padding-right:0%">
+        <div class="top" style="padding-left:2%; padding-right:2%">
+            <h1>Careers at Twooth</h1>
+            <img id="career-top-image" src="images/interior-3.png">
+            <div class="rectangle"></div>
+            <div class="outer-rectangle">
+                <h3>What’s your next destination?</h3>
+                <button>Explore roles</button>
+            </div>
+        </div>
+        <div id="secondCareerComponent" class="container-fluid no-padding"
+            style="padding-left:25%; padding-right:25%; padding-bottom: 10%;">
+            <h5 id="CareerTitles"> OUR MISSION</h5>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor non massa, semper vel ullamcorper et a.
+                Vel at vitae venenatis ac cursus sit duis duis. Lobortis a consectetur viverra odio scelerisque turpis
+                vitae neque aenean.
+                <br> <br>
+                Laoreet sed adipiscing nibh quis suspendisse. Scelerisque mattis sit cras habitasse molestie eget
+                tristique vel libero. Diam dapibus euismod quis sed massa, enim purus. At odio odio sapien odio. Aenean
+                laoreet sit quam at.
+                <br> <br>
+                Sed laoreet a aenean id sed bibendum neque. Eros adipiscing ullamcorper donec enim a.
+                Sed turpis habitasse in viverra in leo cras nunc. Accumsan lorem urna ultricies blandit facilisis diam
+                dictumst. Mi imperdiet nec feugiat enim et sagittis.
+            </p>
+        </div>
+
+        <div id="thirdCareerComponent" class="container-fluid no-padding"
+            style="padding-left:7%; padding-right:7%; padding-bottom: 5%;">
+            <h5 id="CareerTitles">OUR CORE VALUES</h5>
+            <h2>Lorem ipsum dolor sit consectetur</h2>
+
+            <div id="01 Lorem ipsum dolor sit consectetur" class="tabcontent" style="display: block;">
+                Accumsan lorem urna ultricies blandit facilisis diam dictumst. Mi imperdiet nec feugiat enim et
+                sagittis.
+            </div>
+
+            <div id="02 Sed vitae" class="tabcontent">
+                Sed laoreet a aenean id sed bibendum neque. Eros adipiscing ullamcorper donec enim a.
+            </div>
+
+            <div id="03 Tristique nunc rhoncus in" class="tabcontent">
+                Vel at vitae venenatis ac cursus sit duis duis. Lobortis a consectetur viverra odio scelerisque turpis
+                vitae neque aenean.
+            </div>
+
+            <div id="04 Sem ultrices in" class="tabcontent">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor non massa, semper vel ullamcorper et a
+            </div>
+
+            <div class="arrows" style="text-align: center;">
+                <button class="previous"><img src="images/Thick-Left-Arrow.svg" alt=""></button>
+                <button class="next" onclick="nextTab()"><img src="images/Thick-Right-Arrow.svg" alt=""></button>
+            </div>
+
+
+            <div class="tab">
+                <button class="tablinks 01 Lorem ipsum dolor sit
+                consectetur active" onclick="openTab(event, '01 Lorem ipsum dolor sit consectetur')"
+                    style="margin-left:1.1%;">01 Lorem ipsum dolor sit
+                    consectetur</button>
+                <button class="tablinks 02 Sed vitae" onclick="openTab(event, '02 Sed vitae')">02 Sed vitae</button>
+                <button class="tablinks 03 Tristique nunc  
+                rhoncus in" onclick="openTab(event, '03 Tristique nunc rhoncus in')">03 Tristique nunc
+                    rhoncus in</button>
+                <button class="tablinks 04 Sem ultrices in" onclick="openTab(event, '04 Sem ultrices in')">04 Sem
+                    ultrices in
+                </button>
+
+            </div>
+
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+                integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+            <script type="text/javascript">
+                function openTab(evt, tabName) {
+                    var i, tabcontent, tablinks;
+                    tabcontent = document.getElementsByClassName("tabcontent");
+                    for (i = 0; i < tabcontent.length; i++) {
+                        tabcontent[i].style.display = "none";
+                    }
+                    tablinks = document.getElementsByClassName("tablinks");
+                    for (i = 0; i < tablinks.length; i++) {
+                        tablinks[i].className = tablinks[i].className.replace(" active", "");
+                    }
+                    document.getElementById(tabName).style.display = "block";
+                    evt.currentTarget.className += " active";
+                }
+
+                function nextTab() {
+                    $('button.tablinks').removeClass('active');
+                    var id = $('.tabcontent:visible').attr('id');
+                    $('#' + id).hide();
+                    $('.tabcontent:visible').next('.tabcontent').show();
+
+                    id = $('.tabcontent:visible').attr('id');
+                    $('button.tablinks.' + id).addClass('active');
+
+                }
+            </script>
+        </div>
+
+        <div id="fourthCareerComponent">
+            <img src="images/interior-2.png" style="width: 100%; padding-bottom: 6%;">
+            <div class="container-fluid no-padding" style="padding-left:25%; padding-right:25%; padding-bottom: 10%;">
+                <h5 id="CareerTitles">BENEFITS</h5>
+                <h3> <b> Benefits of working at Twoth</b></h3>
+                <p>Tellus fames porta diam elementum platea interdum nulla at lacinia. Tellus in aliquam sit cursus nec
+                    leo est. Sit pellentesque amet, dapibus sed ac quis in donec.
+                </p>
+                <div class="container-fluid">
+                    <div class="row" style="padding-top:5%;">
+                        <div class="col-4" style="text-align: center;">
+                            <img src="images/insurance.png" alt="">
+                            <h4>Health insurance covered</h4>
+                        </div>
+                        <div class="col-4" style="text-align: center;  padding-top: 1.5%;">
+                            <img src="images/Food.png">
+                            <h4>Healthy food and snacks available</h4>
+                        </div>
+                        <div class="col-4" style="text-align: center;  padding-top: 1.5%;">
+                            <img src="images/Learning.png">
+                            <h4>Learning and development</h4>
+                        </div>
+                    </div>
+
+                    <div class="row" style="padding-top:7%;">
+                        <div class="col-4" style="text-align: center;">
+                            <img src="images/Discount.png" alt="">
+                            <h4>Discounts offered on shop products </h4>
+                        </div>
+                        <div class="col-4" style="text-align: center;  padding-top: 1%;">
+                            <img src="images/Family-Leave.png">
+                            <h4>Generous parental and family leave</h4>
+                        </div>
+                        <div class="col-4" style="text-align: center;  padding-top: 0.5%;">
+                            <img src="images/Examination.png">
+                            <h4>Free yearly examinations</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="fifthCareerComponent" style="padding-bottom: 6%;">
+            <div class="fluid-container" style="padding-left:2%; padding-right:2%">
+                <div class="row">
+                    <div class="col-6">
+                        <h5 id="CareerTitles">TOUR OUR OFFICES</h5>
+                        <img src="images/interior-1_2.png" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="col-6"><img src="images/interior-4_2.png" style="width: 100%; border-radius: 15px;">
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 1%;">
+                    <div class="col-7"><img src="images/interior-6.png" style="width: 100%; border-radius: 15px;"></div>
+                    <div class="col-5"><img src="images/interior-5_2.png" style="height: 100%; border-radius: 15px;">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="sixthCareerComponent" class="container-fluid no-padding"
+            style="padding-left:7%; padding-right:7%; padding-bottom: 5%;">
+            <h5 id="CareerTitles">OPPORTUNITIES</h5>
+            <h6>Id ullamcorper lectus morbi id. Sit elit, viverra quis lobortis nisl. Id quam hac sed neque.</h6>
+            <h5 id="CareerTitles">OPEN ROLES</h5>
+            <div class="fluid-container" style="padding-left:10%; padding-right:10%">
+                <div id="Jobs">
+                    <a href="">Dental Implantologist</a>
+                    <a id="JobArrow"><img src="images/Right-arrow.svg" alt=""></a>
+
+                </div>
+                <hr style="width:100%">
+                <div id="Jobs">
+                    <a href="">General and Cosmetic Dentist</a>
+                    <a id="JobArrow" href=""><img src="images/Right-arrow.svg" alt=""></a>
+                </div>
+                <hr style="width:100%">
+                <div id="Jobs">
+                    <a href="">Dental Hygienist </a>
+                    <a id="JobArrow" href=""><img src="images/Right-arrow.svg" alt=""></a>
+                </div>
+                <hr style="width:100%">
+                <div id="Jobs">
+                    <a href="">Dental Nurse</a>
+                    <a id="JobArrow" href=""><img src="images/Right-arrow.svg" alt=""></a>
+                </div>
+                <hr style="width:100%">
+                <div id="Jobs">
+                    <a href="">Medical Facial Aesthetician</a>
+                    <a id="JobArrow" href=""><img src="images/Right-arrow.svg" alt=""></a>
+                </div>
+                <hr style="width:100%">
+                <div id="Jobs">
+                    <a href="">Treatment Coordinator</a>
+                    <a id="JobArrow" href=""><img src="images/Right-arrow.svg" alt=""></a>
+                </div>
+                <hr style="width:100%">
+                <div id="Jobs">
+                    <a href="">Front of House</a>
+                    <a id="JobArrow" href=""><img src="images/Right-arrow.svg" alt=""></a>
+                </div>
+                <hr style="width:100%">
+                <div id="Jobs">
+                    <a href="">Deputy Manager</a>
+                    <a id="JobArrow" href=""><img src="images/Right-arrow.svg" alt=""></a>
+                </div>
+                <hr style="width:100%">
+                <div id="Jobs">
+                    <a href="">Content Creator</a>
+                    <a id="JobArrow" href=""><img src="images/Right-arrow.svg" alt=""></a>
+                </div>
+                <hr style="width:100%">
+                <div id="Jobs">
+                    <a href="">Business Development Manager</a>
+                    <a id="JobArrow" href=""><img src="images/Right-arrow.svg" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="panel-footer">
+
+        <div class="fluid-container" style="margin-left: 80px; margin-right: 80px;">
+
+            <div class="firstFooterComponent">
+                <span>If you are in pain or require an emergency dentist </span>
+                <button class="phone">0204 515 1234</button>
+            </div>
+
+            <hr>
+
+            <div class="secondFooterComponent">
+                <img src="images/Tolstoy.png">
+                <h2>Record a video with your questions and we will send you a video back</h2>
+
+                <h5>
+                    Raise your queries about any of our treatments using our quick and easy tool that allows you to send
+                    a video, audio or text and we will respond back right away! Get a more specific response related to
+                    your query.
+                </h5>
+                <div>
+                    Why leave us a message
+                    <ul>
+                        <li>Get a face profile and smile review directly from a clinician</li>
+                        <li>Discuss a specific skin area and have virtual consultation in total privacy</li>
+                        <li>Discuss finance options with our treatment coordinators</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <hr>
+
+            <div class="thirdFooterComponent">
+                <h3>Book Now</h3>
+                <div class="row" style="background-color: #EAE4C8;">
+                    <div class="col-md-6 col-sm-12 col-xs-12"
+                        style="text-align: center; border-right: 0.1px solid #1d321e9b; background-color: #EAE4C8;">
+                        <h4>A Virtual Conversation</h4>
+                        <h5>An introduction to the Twoth approach with one of our
+                            advisors who will answer your questions and help you begin a
+                            unique journey.</h5>
+                        <button>
+                            BOOK CONVERSATION
+                        </button>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12 col-xs-12" style="text-align: center; background-color: #EAE4C8;">
+                        <h4>An In-Person Consultation</h4>
+                        <h5>We are excited to welcome you into our clinic in London.
+                            Book your complimentary visit with one of our
+                            renowned clinicians.</h5>
+                        <button>
+                            BOOK CONSULTATION
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="fourthFooterComponent">
+                <div class="row" style="background-color: rgba(122, 137, 110, 0);">
+                    <div class="col-md-6 col-sm-12 col-xs-12" style="background-color: rgba(122, 137, 110, 0);">
+                        <a href="https://www.google.com/maps/place/74+St+John's+Wood+High+St,+London+NW8+7SH,+UK/@51.5327345,-0.1716487,17z/data=!3m1!4b1!4m5!3m4!1s0x48761abe8e6eb5fb:0x88b0a44b01f1e993!8m2!3d51.5327312!4d-0.16946"
+                            target="_blank">
+                            <div id="map-tile" style="display: inline;">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3552.1351566837207!2d-0.17191373021668427!3d51.533273266802446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761abe8e6eb5fb%3A0x88b0a44b01f1e993!2s74%20St%20John&#39;s%20Wood%20High%20St%2C%20London%20NW8%207SH%2C%20UK!5e0!3m2!1sen!2seg!4v1630936286310!5m2!1sen!2seg"
+                                    width="600" height="450" style="border:0;" allowfullscreen=""
+                                    loading="lazy"></iframe>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12 col-xs-12"
+                        style="text-align: center; background-color: rgba(122, 137, 110, 0)">
+                        <h3>OPENING HOURS</h3>
+                        <h5 class="days">
+                            Monday <br>
+                            Tuesday <br>
+                            Wednesday <br>
+                            Thursday <br>
+                            Friday <br>
+                            Saturday <br>
+                            Sunday
+                        </h5>
+                        <h5 class="hours">
+                            09.30 am - 6.00 pm <br>
+                            08.00 am - 6.00 pm <br>
+                            08.00 am - 6.00 pm <br>
+                            09.30 am - 6.00 pm <br>
+                            09.30 am - 6.00 pm <br>
+                            10.00 am - 3.00 pm <br>
+                            CLOSED
+                        </h5>
+                        <h4>
+                            Emergency appointments available out of hours <br>
+                            Call our emergency dental team
+                        </h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fifthFooterComponent">
+                <div class="row" style="background-color: rgba(122, 137, 110, 0);">
+                    <div class="col-md-4 col-sm-4 col-xs-4"
+                        style="text-align: center; border-right: 0.1px solid #1d321e9b; background-color: rgba(122, 137, 110, 0);">
+                        <h3>St Johns Wood </h3>
+                        <h5>
+                            74 St John's Wood High Street <br>
+                            St John's Wood <br>
+                            London <br>
+                            NW8 7SH <br> <br>
+                            hello@twoth.com <br>
+                            0203 505 9123
+                        </h5>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4"
+                        style="text-align: center;border-right: 0.1px solid #1d321e9b; background-color: rgba(122, 137, 110, 0);">
+                        <h3>Fitzovia </h3>
+                        <h5>
+                            14 Rathbone Place<br>
+                            Fitzrovia <br>
+                            London <br>
+                            W1T 1JZ<br> <br>
+                            hello@twoth.com <br>
+                            0203 505 9123
+                        </h5>
+
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4"
+                        style="text-align: center; background-color: rgba(122, 137, 110, 0);">
+                        <h3>Coming Soon </h3>
+                        <h5>
+                            We are scouting our <br> next location in London,<br> vote for your local <br> high street
+                            <a href="">here</a>
+                        </h5>
+
+                    </div>
+                </div>
+                <div class="icons">
+                    <a href="https://www.whatsapp.com/?lang=en"><img src="images/whatsapp.svg" /></a>
+                    <a href="https://www.facebook.com/"><img src="images/facebook.svg" /></a>
+                    <a href="https://www.messenger.com/"><img src="images/facebook-messenger.svg" /></a>
+                    <a href="https://www.instagram.com/"><img src="images/instagram.svg" /></a>
+                    <a href="https://twitter.com/?lang=en"><img src="images/twitter.svg" /></a>
+                    <a href="https://www.snapchat.com/"><img src="images/snapchat.svg" />
+                        <a href="https://www.youtube.com/"><img src="images/youtube-play-button.svg" /></a>
+                        <a href="https://www.google.com/business/"><img src="images/google-business.svg" /></a>
+                </div>
+
+            </div>
+
+            <hr style="padding-top: 1%;">
+            <div class="sixthFooterComponent">
+                <h3>Sign Up To Our Newsletter</h3>
+                <form>
+                    <div class="row" style="background-color: rgba(122, 137, 110, 0);">
+                        <div class="col" style="background-color:#EAE4C8; ">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="col" style="background-color:#EAE4C8;">
+                            <input type="text" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="col" style="background-color: #EAE4C8;;">
+                            <input type="text" class="form-control" placeholder="Phone Number">
+                        </div>
+                        <div class="col" style="background-color: #EAE4C8;;">
+                            <button>Sign Up</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <hr>
+            <div class="seventhFooterComponent">
+                <div class="container">
+                    <div class="row" style="background-color: rgba(122, 137, 110, 0);">
+                        <div class="col-md-6 col-sm-12 col-xs-12"
+                            style=" border-right: 0.1px solid #1d321e9b; background-color: #EAE4C8;">
+                            <h4>We're keeping
+                                <br>
+                                our community safe
+                            </h4>
+                            <a class="covid" href="/">See everything we're doing</a>
+                            <h6>Text us your questions: <a href="">0203 505 9123</a></h6>
+                        </div>
+
+                        <div class="col-md-6 col-sm-12 col-xs-12"
+                            style="text-align: center; background-color: #EAE4C8;">
+                            <h5>Health checks for Covid-19 before<br>
+                                visit and on arrival <br>
+                                Medically sterilized equipment <br>
+                                Contactless check-in <br>
+                                Enhanced PPE</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr>
+            <div class="eigthFooterComponent">
+                <div class="row" style="background-color: rgba(122, 137, 110, 0);">
+                    <div class="col" style="background-color: #EAE4C8;">
+                        <h1>Twoth</h1>
+                        <h4>Dental & Facial Aesthetics</h4>
+                    </div>
+                    <div class="col" style="background-color: #EAE4C8;">
+                        <div class="row" style="background-color: rgba(122, 137, 110, 0);">
+                            <div class="col" style=" border-right: 0.1px solid #1d321e9b; background-color: #EAE4C8;">
+                                <a href="/">Our Treatments</a> <br>
+                                <a href="/">Fees Guide</a> <br>
+                                <a href="/">Shop</a> <br>
+                                <a href="ourTeam.html">Our Team</a>
+                            </div>
+                            <div class="col" style="background-color: #EAE4C8;">
+                                <a href="/">Treatment Payment Plans</a> <br>
+                                <a href="/">Cancelled Appointments</a> <br>
+                                <a href="/">Emergency Appointments </a> <br>
+                                <a href="/">Careers </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="copyright">
+                    Copyright &copy 2021 Twoth | Site last update: 1 October 2021
+                </div>
+                <div class="row" id="bottomlinks" style="text-align: center; background-color: rgba(122, 137, 110, 0);">
+                    <div class="col" style="background-color: #EAE4C8;"> <a href="">Privacy & Cookies Policy</a> </div>
+                    <div class="col" style="background-color: #EAE4C8;"> <a href="">Complaints Procedure</a> </div>
+                    <div class="col" style="background-color: #EAE4C8;"> <a href=""> Data Protection</a></div>
+                    <div class="col" style="background-color: #EAE4C8;"> <a href="">Terms of Use</a> </div>
+                </div>
+
+            </div>
+        </div>
+        <img src="images/TwothLogo.png" alt="Twoth Logo" style="width: 100%;">
+    </footer>
+</body>
+
+</html>

@@ -1048,7 +1048,7 @@ background-color: rgba(122, 137, 110, 0);
     width: 90%; 
     margin:auto;
     position: relative;
-    bottom: 17%;
+   
     text-align: left;
 }
 
@@ -1075,9 +1075,6 @@ background-color: rgba(122, 137, 110, 0);
     
 }
 
-#card-image:after{
-    
-}
 
 #blog-content h2{
     padding-top: 7%;
@@ -1345,3 +1342,241 @@ background-color: rgba(122, 137, 110, 0);
 .img-gradient img{
     display:block;
   }
+
+
+.blogDetail-title{
+   text-align: center;
+   padding-bottom: 5%;
+}
+
+.blogDetail-title h1{
+    text-align: center;
+    color:#974A16;
+    font-weight: bold;
+ }
+
+.blogDetail-content .date{
+    padding-left:6%;
+}
+
+#top-blog-content h6{
+    color: rgba(29, 50, 30, 0.7);
+    font-size: 1.2em;
+    padding-bottom: 1%;
+}
+
+#top-blog-content p{
+    color: #1D321E;
+    font-size: 1.1em;
+    padding-bottom: 3%;
+    text-align: justify;
+}
+
+#middle-blog-content h3{
+    color: rgba(151, 74, 22, 0.8);
+    padding-bottom: 1%;
+}
+
+#middle-blog-content p{
+    color: #1D321E;
+    font-size: 1.1em;
+    padding-bottom: 5%;
+    text-align: justify;
+}
+
+
+#careers-content .top{
+    padding-top: 6%;
+    padding-bottom: 5%;
+    height: 1000px;
+}
+
+#careers-content .top h1{
+    color: #1D321E;
+    font-weight: bold;
+    font-size: 3em;
+    padding-left: 2%;
+}
+#career-top-image{
+    float: right;
+    padding-top: 5%;
+    width: 70%;
+    z-index: 3;
+   
+}
+
+
+#careers-content .top .rectangle{
+    position: relative;
+    width: 1300px;
+    height: 550px;  
+    background: rgba(122, 137, 110, 0.2);
+    left: 3%;
+    top: 23%;
+    
+    
+}
+
+#careers-content .top .outer-rectangle{
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 250px;
+    width: 400px;
+    left:10%;
+    bottom: 48%;
+    
+}
+
+#careers-content .top .outer-rectangle h3{
+    font-size: 2.2em;
+    color: #1D321E;
+    padding-top: 8%;
+    padding-left: 8%;
+    font-weight: bold;
+}
+
+
+#careers-content .top .outer-rectangle button{
+    background: #1D321E;
+    border-radius: 16px;
+    color: #EAE4C8;
+    width:40%;
+    line-height: 2.5em;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+#CareerTitles{
+    color: rgba(151, 74, 22, 0.5);
+    font-size: 1.2em;
+    padding-bottom: 1%;
+}
+
+#secondCareerComponent h3{
+    color: #1D321E;
+    font-size: 1.6em;
+    padding-bottom: 2%;
+    font-weight: bold;
+}
+
+#secondCareerComponent p{
+    color: #1D321E;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    padding-bottom: 1%;
+    text-align: justify;
+}
+
+#thirdCareerComponent h2{
+    color: #1D321E;
+    font-size: 2em;
+    padding-bottom: 2%;
+    font-weight: bold;
+    width: 30%;
+}
+
+#thirdCareerComponent .tab{
+    padding: 0%;
+}
+
+#thirdCareerComponent .tab button {
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1.4em;
+    line-height: 1.6em;
+    color: #7A896E;
+    padding-bottom:1.5% ;
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 24%;
+    text-align: center;
+    
+ }
+
+ #thirdCareerComponent .tab button:hover {
+    color:#0000004d;
+}
+
+
+#thirdCareerComponent .tab button.active {
+color: #1d321ed7;
+display:inline-block;
+font-weight: bold;
+}
+
+#thirdCareerComponent  .tabcontent{
+    color: #1D321E;
+    font-size: 1.4em;
+    width: 70%;
+    font-weight: lighter;
+}
+
+
+#thirdCareerComponent .arrows button{
+    border: none;
+    margin: 0%;
+    color: #1D321E;
+    font-size: 8em;
+    width: 10%;
+}
+
+#fourthCareerComponent h3{
+    color: #1D321E;
+    font-size: 1.6em;
+    padding-bottom: 2%;
+    font-weight: bold;
+}
+
+#fourthCareerComponent p{
+    color: #1D321E;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    padding-bottom: 1%;
+    text-align: justify;
+}
+
+#fourthCareerComponent h4{
+    color: #7A896E;
+    font-size: 1.1em;
+    padding-top: 2%;
+}
+
+#fifthCareerComponent h5{
+    width:100%;
+    text-align: right;
+    padding-right: 1%;
+}
+
+#sixthCareerComponent h6{
+    font-size: 1.4em;
+    width: 50%;
+    text-transform: capitalize;
+    color: #1D321E;
+    padding-bottom: 3%;
+}
+#sixthCareerComponent hr{
+    width: 100%;
+    border: 0.3px solid rgba(0, 0, 0, 0.459);  
+    margin: auto;
+}
+
+#sixthCareerComponent a{
+    text-decoration: none;
+    color: #1D321E;
+    font-size: 1.3em;
+}
+
+#sixthCareerComponent #Jobs{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 2%;
+}
+
+#sixthCareerComponent #JobArrow{
+    float: right;
+    padding-right: 4%;
+}
