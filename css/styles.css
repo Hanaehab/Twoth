@@ -1741,3 +1741,179 @@ font-weight: bold;
     padding-bottom: 3%;
     line-height: 2em;
 }
+
+#covid19-content h1{
+    padding-top: 5%;
+    padding-left: 4%;
+    color: #974A16;
+    font-weight: bold;
+    padding-bottom: 4%;
+}
+
+#firstCovidCompenent hr{
+    width: 70%;
+    height: 0px;
+    border: 0.2px solid rgba(0, 0, 0, 0.363);  
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+
+#firstCovidCompenent h5{
+    color: #1D321E;
+    font-weight: bold;
+    font-size: 1.6em;
+    padding-left: 5%;
+}
+
+#firstCovidCompenent h6{
+    color: #1D321E;
+    font-weight: 300;
+    font-size: 1.4em;
+    padding-left: 5%;
+    text-align: justify;
+    width: 80%;
+}
+
+#covidCompenent h2{
+    padding-left: 2%;
+    color: #974A16;
+    font-size: 2.2em;
+    padding-bottom: 1%;
+}
+
+#covidCompenent h3{
+    font-weight: lighter;
+    padding-left: 2%;
+    color: #974A16;
+    font-size: 1.6em;
+    padding-bottom: 3%;
+    width: 70%;
+}
+
+#covidCompenent hr{
+    width: 90%;
+    height: 0px;
+    border: 0.2px solid rgba(0, 0, 0, 0.363);  
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+#covidCompenent h5{
+    color: #1D321E;
+    font-weight: bold;
+    font-size: 1.6em;
+    padding-left: 5%;
+}
+
+#covidCompenent h6{
+    color: #1D321E;
+    font-weight: 300;
+    font-size: 1.4em;
+    padding-left: 5%;
+    text-align: justify;
+    width: 80%;
+}
+
+#covidCompenent span{
+    color: #1d321ec9;
+    font-size: 1.4em;
+    text-align: justify;
+    width: 55%;
+    float: right;
+    padding-top:1% ;
+    padding-right: 2%;
+}
+
+#contactUs-content #topComponent{
+    margin-top: 5%;
+    background: rgba(234, 228, 200, 0.7);
+    padding-bottom: 4%;
+    margin-bottom: 5%;
+}
+#topComponent h1{
+    font-weight: bold;
+    font-size: 2.5em;
+    text-align: center;
+    color: #974A16;
+    padding-top: 4%;
+    padding-bottom:8%;
+    background: rgba(234, 228, 200, 0);
+}
+
+#topComponent #contact-usImages{
+    background-color: #1D321E;
+    border-radius: 50%;
+    
+}
+
+#topComponent h3{
+    color: #1D321E;
+    padding-top:6% ;
+    font-weight: bold;
+    padding-bottom: 8%;
+    background: rgba(234, 228, 200, 0);
+}
+
+#topComponent h4{
+    color: #1D321E;
+    font-size: 1.4em;
+    background: rgba(234, 228, 200, 0);
+}
+
+#topComponent #locationBottom{
+    font-weight: lighter;
+    padding-top: 2%;
+    background: rgba(234, 228, 200, 0);
+}
+
+#contactUs-content h2{
+    font-weight: bold;
+    font-size: 2.2em;
+    color: #974A16;
+    padding-bottom: 6%;
+}
+
+#contactUs-content p{
+    color: #1D321E;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+
+#contactUs-content label{
+    color: rgba(29, 50, 30, 0.8);
+    font-size: 1.1em;
+}
+
+#contactUs-content input[type=text], select, textarea {
+    width: 70%; 
+    border: none;
+    padding: 1%; 
+    border-radius: 10px; 
+    box-sizing: border-box; 
+    margin-top: 1%; 
+    margin-bottom: 6%; 
+    background: rgba(151, 74, 22, 0.15);
+    resize: vertical; 
+    text-align: center;
+    
+  }
+  
+#contactUs-content  input[type=submit] {
+    width: 40%;
+    background-color: #1D321E;
+    color: #EAE4C8;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    font-size: 1.1em;
+  }
+  
+ 
+#contactUs-content input[type=submit]:hover {
+    background-color: #041d05;
+  }
