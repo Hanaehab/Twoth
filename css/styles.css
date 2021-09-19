@@ -1043,12 +1043,12 @@ background-color: rgba(122, 137, 110, 0);
     padding-bottom: 3%;
 }
 
-.card{
+#blogCards{
     border-radius: 32px;
     width: 90%; 
     margin:auto;
     position: relative;
-   
+   bottom: 17%;
     text-align: left;
 }
 
@@ -1917,3 +1917,99 @@ font-weight: bold;
 #contactUs-content input[type=submit]:hover {
     background-color: #041d05;
   }
+
+#press-content h1{
+    color: #1D321E;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 2.6em;
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+#press-content #pressimages{
+    padding-left: 3%;
+}
+
+#press-content #pageTop{
+    padding-top: 2%;
+    font-size: 1.4em;
+    line-height: 1.8em;
+    color: rgba(29, 50, 30, 0.7);
+    width: 90%;
+    margin: auto;
+    padding-left: 5%;
+
+
+}
+
+#firstPressComponent h5{
+    display: block;
+    font-size: 1.6em;
+    color: #1D321E;
+
+}
+
+#firstPressComponent h6{
+    color: rgba(151, 74, 22, 0.7);
+    font-size: 1em;
+}
+
+#secondPressComponent h2{
+
+    color: #1D321E;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 2.4em;
+    font-weight: bold;
+    padding-bottom: 3%;
+}
+
+#secondPressComponent span{
+    display: block;
+    color: rgba(151, 74, 22, 0.9);
+    font-size: 1.6em;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3%;
+
+}
+
+#secondPressComponent a{
+    font-size: 1.4em;
+    padding-left: 3%;
+    line-height: 2.8em;
+    text-decoration: underline;
+}
+
+#thirdPressComponent h3{
+    color: #974A16;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+#thirdPressComponent p{
+    color: #1D321E;
+    font-size: 1.2em;
+    width: 80%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+
+#thirdPressComponent button{
+    border-radius: 25px;
+    width: 40%;
+    background: #1D321E;
+    color: #EAE4C8;
+    font-size: 1em;
+    line-height: 2.6em;
+}
+
+#thirdPressComponent h2{
+    color: #974A16;
+    font-size: 2.3em;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10%;
+}
