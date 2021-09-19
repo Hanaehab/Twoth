@@ -1924,7 +1924,6 @@ font-weight: bold;
     padding-top: 5%;
     font-size: 2.6em;
     font-weight: bold;
-    padding-left: 5%;
 }
 
 #press-content #pressimages{
@@ -1936,9 +1935,8 @@ font-weight: bold;
     font-size: 1.4em;
     line-height: 1.8em;
     color: rgba(29, 50, 30, 0.7);
-    width: 90%;
+    width: 80%;
     margin: auto;
-    padding-left: 5%;
 
 
 }
@@ -2012,4 +2010,91 @@ font-weight: bold;
     font-weight: bold;
     text-align: center;
     padding-top: 10%;
+}
+
+#media-content #pageTop{
+    padding-top: 2%;
+    font-size: 1.4em;
+    line-height: 1.8em;
+    color: rgba(29, 50, 30, 0.7);
+    width: 80%;
+    margin: auto;
+
+
+}
+
+#media-content h1{
+    color: #1D321E;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 2.6em;
+    font-weight: bold;
+}
+
+#firstMediaComponent h1{
+    font-family: EB Garamond;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 6em;
+    line-height: 80%;
+    color: #974A16;
+    text-align: left;
+    background-color: rgba(122, 137, 110, 0);
+    padding-left: 15%;
+    padding-top: 5%;
+}
+
+#firstMediaComponent h4{
+    font-family: EB Garamond;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8em;
+    line-height: 2em;
+    color: #7A896E;
+    background-color: rgba(122, 137, 110, 0);
+    padding-bottom: 3%;
+    text-align: left;
+    padding-left: 10%;
+}
+
+#firstMediaComponent h5{
+    padding-left: 10%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #1D321E;
+    width: 60%;
+    text-align: left;
+}
+
+#firstMediaComponent a{
+    text-decoration: underline;
+    font-size: 1.2em;
+    text-align: left;
+    padding-left: 10%;
+}
+
+#secondMediaComponent h3{
+    color: #974A16;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+#secondMediaComponent p{
+    color: #1D321E;
+    font-size: 1.2em;
+    width: 60%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    margin: auto;
+}
+
+
+#secondMediaComponent button{
+    border-radius: 25px;
+    width: 30%;
+    background: #1D321E;
+    color: #EAE4C8;
+    font-size: 1em;
+    line-height: 2.6em;
 }
