@@ -2140,7 +2140,7 @@ font-weight: bold;
     padding-bottom: 0%;
   }
 
-  /* Style the accordion panel. Note: hidden by default */
+
 #faq-content  .panel {
     background: rgba(122, 137, 110, 0.4);
     display: none;
@@ -2156,3 +2156,41 @@ font-weight: bold;
     background: rgba(122, 137, 110, 0);
   }
 
+#gallery-content h1{
+    text-align: center;
+    color: #974A16;
+    font-size: 3em;
+    font-weight: 500;
+
+}
+
+#gallery-content h2{
+    text-align: center;
+    color: rgba(151, 74, 22, 0.9);
+    font-size: 2.8em;
+    font-weight: 500;
+    padding-bottom: 7%;
+
+}
+
+#gallery-content h6{
+    color: #1D321E;
+    font-weight: bold;
+    font-size: 1.8em;
+    padding-bottom: 3%;
+    padding-left: 5%;
+}
+
+#gallery-content p{
+    color: rgba(29, 50, 30, 0.7);
+    font-size: 1.4em;
+    width: 41%;
+    padding-left: 5%;
+}
+
+#gallery-content img{
+    padding-right: 3%;
+}
+#gallery-content hr{
+    border: 1px solid #1d321e7a;
+}
