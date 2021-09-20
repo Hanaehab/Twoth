@@ -2098,3 +2098,61 @@ font-weight: bold;
     font-size: 1em;
     line-height: 2.6em;
 }
+
+#faq-content h1{
+    align-items: center;
+    text-align: center;
+    color: #974A16;
+    font-size: 3em;
+    padding-top: 8%;
+    padding-bottom: 5%;
+}
+
+#faq-content h3{
+    color: rgba(151, 74, 22, 0.7);
+    font-size: 2.2em;
+    padding-bottom: 2%;
+}
+
+#faq-content .accordion {
+    background: rgba(122, 137, 110, 0.3);
+    color: #1D321E;
+    cursor: pointer;
+    padding: 1.5%;
+    width: 100%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    text-align: left;
+    border: 1px solid #7A896E;
+    box-sizing: border-box;
+    outline: none;
+    transition: 0.4s;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+  
+#faq-content .active, .accordion:hover {
+    background-color: rgba(122, 137, 110, 0.4);
+    border-bottom: none;
+    margin-bottom: 0%;
+    border-radius: 15px 15px 0px 0px;
+    padding-bottom: 0%;
+  }
+
+  /* Style the accordion panel. Note: hidden by default */
+#faq-content  .panel {
+    background: rgba(122, 137, 110, 0.4);
+    display: none;
+    overflow: hidden;
+    border: 1px solid #7A896E;
+    border-top:none ;
+    border-radius: 0px 0px 15px 15px;
+    padding: 1.5%;
+    
+  }
+
+#faq-content p{
+    background: rgba(122, 137, 110, 0);
+  }
+

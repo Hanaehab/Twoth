@@ -114,7 +114,7 @@
             </div>
 
             <div class="arrows" style="text-align: center;">
-                <button class="previous"><img src="images/Thick-Left-Arrow.svg" alt=""></button>
+                <button class="previous" onclick="previousTab()"><img src="images/Thick-Left-Arrow.svg" alt=""></button>
                 <button class="next" onclick="nextTab()"><img src="images/Thick-Right-Arrow.svg" alt=""></button>
             </div>
 
@@ -154,8 +154,21 @@
                 function nextTab() {
                     $('button.tablinks').removeClass('active');
                     var id = $('.tabcontent:visible').attr('id');
-                    $('#' + id).hide();
+                    console.log(id);
+                    $("#" + id).hide();
                     $('.tabcontent:visible').next('.tabcontent').show();
+
+                    id = $('.tabcontent:visible').attr('id');
+                    $('button.tablinks.' + id).addClass('active');
+
+                }
+
+                function previousTab() {
+                    $('button.tablinks').removeClass('active');
+                    var id = $('.tabcontent:visible').attr('id');
+                    console.log(id);
+                    $("#" + id).hide();
+                    $('.tabcontent:visible').prev('.tabcontent').show();
 
                     id = $('.tabcontent:visible').attr('id');
                     $('button.tablinks.' + id).addClass('active');
