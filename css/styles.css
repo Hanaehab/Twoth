@@ -2618,3 +2618,126 @@ font-weight: bold;
     font-size: 2em;
     line-height: 2em;
 }
+
+#checkout-content h1{
+    font-weight: bold;
+    color: #1D321E;
+    padding-bottom: 5%;
+}
+
+#checkout-content span{
+    color: #974A16;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+#checkout-content img{
+    width: 30%; 
+    height: 90%; 
+    float: left;
+    border: 0.5px solid #000000a1;
+    box-sizing: border-box;
+    border-radius: 40%;
+    display: inline;
+    margin-right: 5%;
+  
+}
+
+#checkout-content h5{
+    color: #1D321E;
+    font-size: 1.6em;
+
+    
+}
+
+#checkout-content .productNumber{
+    background: rgba(122, 137, 110, 0.3);
+    color: #1D321E;
+    width:50%;
+    font-size: 1.5em;
+    display: inline;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+
+}
+#checkout-content a{
+    display: block;
+    color: #00000091;
+    width:40%;
+    text-decoration: underline;
+    padding-top: 4%;
+}
+
+#checkout-content h6{
+    padding-right: 9%;
+    font-size: 1.2em;
+    color: rgba(29, 50, 30, 0.6);
+}
+
+#checkout-content button{
+    background: #1D321E;
+    border-radius: 20px;
+    margin: auto;
+    width: 20%;
+    display: flex;
+    color: #EAE4C8;
+    justify-content: center;
+    font-size: 1.8em;
+    margin-top: 2%;
+    line-height: 2em;
+
+}
+
+#orderConfirmation-content h2{
+    padding-bottom: 5%;
+    color: #1D321E;
+    font-weight: bold;
+    font-size: 2.4em;
+
+}
+
+#orderConfirmation-content label{
+    color: rgba(29, 50, 30, 0.8);
+    font-size: 1.2em;
+    
+}
+
+#orderConfirmation-content input[type=text], select, textarea {
+    width: 50%; 
+    border: none;
+    padding: 1%; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    margin-top: 1.5%; 
+    margin-bottom: 6%; 
+    background: rgba(151, 74, 22, 0.15);
+    resize: vertical; 
+    text-align: center;
+    
+  }
+  
+
+#orderConfirmation-content span{
+    color: rgba(151, 74, 22, 0.7);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+#orderConfirmation-content h5{
+    color: #1D321E;
+    font-size: 1.2em;
+}
+
+#orderConfirmation-content button{
+    background: #1D321E;
+    border-radius: 10px;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: #EAE4C8;
+    font-size: 1.5em;
+    line-height: 2em;
+    margin-top: 3%;
+}
