@@ -1497,6 +1497,9 @@ background-color: rgba(122, 137, 110, 0);
     
  }
 
+#thirdCareerComponent .arrows button:focus{
+    outline: 0;
+}
  #thirdCareerComponent .tab button:hover {
     color:#0000004d;
 }
@@ -2279,7 +2282,7 @@ font-weight: bold;
     padding-bottom: 6%;
 }
 
-#secondShopComponent button{
+#secondShopComponent .addtocard{
     width: 55%;
     background: #974A16;
     border-radius: 40px;
@@ -2287,6 +2290,16 @@ font-weight: bold;
     color: #EAE4C8;
     font-size: 1.1em;
 
+}
+
+#secondShopComponent .toprated-nav{
+    display: inline; 
+    float: left;
+    margin-top: 15%;
+    border: none;
+}
+#secondShopComponent .toprated-nav:focus{
+    outline: none;
 }
 
 #shopProducts-content h2{
@@ -2357,15 +2370,37 @@ font-weight: bold;
     line-height: 2.4em;
     color: #974A16;
     display: none;
-
-   
 }
 
-#shopProductImage1{
+#shopProductImage img{
     border-radius: 20px;
 }
 
-#shopProductImage1:hover  + .productoverview{
+#shopProductImage:hover  + .productoverview{
+    display: block;
+}
+
+
+.productoverviewsmall{
+    position: absolute;
+    top: 54%;
+    left: 8.6%;
+    width: 83%;
+    background: rgba(122, 137, 110, 0.9);
+    border-radius: 10px 10px 20px 20px;
+    font-size: 1.6em;
+    line-height: 2.2em;
+    color: #974A16;
+    display: none;
+}
+
+#shopProductImagesmall img{
+    border-radius: 20px;
+    
+}
+
+
+#shopProductImagesmall:hover  + .productoverviewsmall{
     display: block;
 }
 
@@ -2433,7 +2468,7 @@ font-weight: bold;
     border-color: #1d321e7e;
 }
 
-#firstProductDetailComponent button {
+#firstProductDetailComponent #addToCart {
     background: #974A16;
     border-radius: 40px;
     font-size: 1.1em;
@@ -2443,6 +2478,15 @@ font-weight: bold;
     margin-left:10% ;
 }
 
+#firstProductDetailComponent .pagination button{
+    border: none;
+}
+
+#firstProductDetailComponent .pagination  button:focus {outline:0;}
+
+#firstProductDetailComponent .imageContent{
+    display: none;
+}
 
 #secondProductDetailComponent .tablink {
     color: #1D321E;
@@ -2565,25 +2609,36 @@ font-weight: bold;
 
 #secondProductDetailComponent #reviewText{
     padding-left: 1%;
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: #1D321E;
     padding-top: 2%;
 }
 
-#secondProductDetailComponent .pagination a {
+#secondProductDetailComponent .pagination button {
     color: black;
     padding: 1% 1.5%;
     text-decoration: none;
     transition: background-color .3s;
     font-size: 1.3em;
+    border: none;
+    background-color: rgba(122, 137, 110, 0);
   }
 
-#secondProductDetailComponent  .pagination a.active {
+#secondProductDetailComponent  .pagination button.active {
     font-weight: bold;
     text-decoration: underline;
+    border: none;
+    
   }
+
+#secondProductDetailComponent  .pagination  button:focus {outline:0;}
+
+#secondProductDetailComponent .numbercontent{
+    display: none;
+    background-color: rgba(122, 137, 110, 0);
+}
   
-#secondProductDetailComponent  .pagination a:hover:not(.active) {background-color: rgba(83, 80, 80, 0.479);}
+#secondProductDetailComponent  .pagination button:hover:not(.active) {background-color: rgba(83, 80, 80, 0.479);}
 
 #shopSkinCategories-content h2{
     font-weight: bold;
@@ -2740,4 +2795,264 @@ font-weight: bold;
     font-size: 1.5em;
     line-height: 2em;
     margin-top: 3%;
+}
+
+#dentalTreatment-content .h3Font{
+    text-align: center;
+    color: #974A16;
+    padding-top: 5%;
+    font-size: 2.4em;
+    line-height: 1.8em;
+    background-color: rgba(122, 137, 110, 0);
+    font-weight: bold;
+}
+
+
+.secondTreatmentComponent h5{
+    text-align: center;   
+    color: #974A16;
+    background-color: rgba(122, 137, 110, 0);
+    padding-top: 1%;
+    font-size: 1.8em;
+    padding-bottom: 6%;
+}
+
+.secondTreatmentComponent h6{
+    padding-top: 10%;
+    background-color: rgba(122, 137, 110, 0);
+    font-weight: bold;
+    font-size: 1.8em;
+    color: #1D321E;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.thirdTreatmentComponent h5{ 
+    color: rgba(151, 74, 22, 0.8);
+    padding-top: 1%;
+    font-size: 1.8em;
+    padding-left: 6%;
+    padding-top: 10%;
+    text-align: left;
+}
+
+.thirdTreatmentComponent hr{
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+
+.thirdTreatmentComponent span{
+    color: #1D321E;
+    font-size: 1.6em;
+}
+
+.thirdTreatmentComponent h1{
+    font-size: 4.2em;
+    color: #7A896E;
+    font-weight: bold;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+.thirdTreatmentComponent h6{
+    width: 40%;
+    color: #1D321E;
+    font-size: 1.2em;
+    margin: auto;
+}
+
+.sixthTreatmentComponent  hr{
+    width: 90%;
+    height: 0px;
+    border: 0.2px solid rgba(0, 0, 0, 0.363);  
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+
+.sixthTreatmentComponent  h5{
+    color: #1D321E;
+    font-weight: bold;
+    font-size: 1.6em;
+    padding-left: 6%;
+    padding-bottom: 3%;
+    background-color: rgba(122, 137, 110, 0);
+}
+
+.sixthTreatmentComponent  p{
+    color: #1D321E;
+    font-weight: 300;
+    font-size: 1.4em;
+    padding-left: 6%;
+    text-align: justify;
+    width: 80%;
+    background-color: rgba(122, 137, 110, 0);
+}
+
+
+.sixthTreatmentComponent h4{
+    background-color: rgba(122, 137, 110, 0);
+    padding: 4%;
+    padding-bottom: 0%;
+    font-size: 2em;
+    font-weight: bold;
+    color: #1D321E;
+}
+
+.sixthTreatmentComponent h6{
+    color: #7A896E;
+    padding-left: 6%;
+    padding-bottom: 3%;
+    background-color: rgba(122, 137, 110, 0);
+}
+
+.eighthTreatmentComponent h2{
+    margin: auto;
+    text-align: center;
+    color: #1D321E;
+    font-weight: bold;
+    width: 50%;
+    font-size: 2.2em;
+    padding-bottom: 4%;
+}
+
+.eighthTreatmentComponent h4{
+    text-align: left;
+    font-size: 2em;
+    font-weight: normal;
+    color: #974A16;
+    background-color: rgba(122, 137, 110, 0);
+    padding-top: 4%;
+    width: 70%;
+}
+
+.eighthTreatmentComponent hr{
+    width: 90%;
+    height: 0px;
+    border: 0.2px solid rgba(0, 0, 0, 0.438);  
+    margin-top: 5%;;
+    margin-bottom: 3%;
+    margin-left: 0%;
+    background-color: rgba(122, 137, 110, 0);
+}
+
+.eighthTreatmentComponent h5{
+    color: #1D321E;
+    font-size: 1.6em;
+    padding-bottom: 2%;
+    background-color: rgba(122, 137, 110, 0);
+}
+
+.eighthTreatmentComponent p{
+    color: rgba(29, 50, 30, 0.89);
+    font-size: 1.2em;
+    font-weight: lighter;
+    line-height: 1.4em;
+    width: 85%;
+    background-color: rgba(122, 137, 110, 0);
+
+}
+
+.eighthTreatmentComponent span{
+    position: absolute;
+    color: #1D321E;
+    font-size: 1.6em;
+    top: 65%;
+    background-color: rgba(122, 137, 110, 0);
+}
+
+.ninthTreatmentComponent div{
+    background: rgba(122, 137, 110, 0.4);
+    line-height: 2em;
+    font-size: 1.2em;
+    color: #1D321E;
+    margin: auto;
+}
+
+.tenthTreatmentComponent h2{
+    background: rgba(122, 137, 110, 0);
+    text-align: center;
+    color: #1D321E;
+    font-size: 2.2em;
+    font-weight: bold;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+#dentalTreatment-content .tenthTreatmentComponent .tab{
+    background: rgba(122, 137, 110, 0);
+    padding-left: 0%;
+    margin: auto;
+    width: 50%;
+}
+#dentalTreatment-content  .tenthTreatmentComponent  .tab button{
+    width: 25%;
+    background: rgba(122, 137, 110, 0);
+}
+#dentalTreatment-content  .tenthTreatmentComponent .tabcontent2{
+    display: none;
+}
+
+.eleventhTreatmentComponent h2{
+    margin: auto;
+    text-align: center;
+    color: #1D321E;
+    font-weight: bold;
+    width: 50%;
+    font-size: 2.2em;
+    padding-bottom: 4%;
+}
+
+.eleventhTreatmentComponent button{
+    margin: auto;
+    width: 15%;
+    background: #1D321E;
+    border-radius: 25px;  
+    line-height: 2em;  
+    text-align: center;
+    color: #EAE4C8;
+    font-size: 1.4em;
+    margin-bottom: 4%;
+}
+
+.thirteenthTreatmentComponent h4{
+    background: rgba(151, 74, 22, 0);
+    margin: auto;
+    color: #1D321E;
+    padding-top: 5%;
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+
+.thirteenthTreatmentComponent h5{
+    background: rgba(151, 74, 22, 0);
+    color: #1D321E;
+    font-size: 1.4em;
+    text-align: left;
+    padding-bottom: 1%;
+    padding-left: 5%;
+}
+
+.thirteenthTreatmentComponent p{
+    background: rgba(151, 74, 22, 0);
+    color: #1D321E;
+    font-weight: lighter;
+    font-size: 0.9em;
+    text-align: left;
+    padding-bottom: 2%;
+    width: 90%;
+    padding-left: 5%;
+}
+
+#dentalTreatment-content #faq-content .accordion{
+    width: 85%;
+    
+}
+
+#dentalTreatment-content #faq-content .panel{
+    width: 85%;
+    margin: auto;
+    
 }

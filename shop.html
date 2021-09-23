@@ -76,48 +76,74 @@
             <div class="row" style="text-align: center;">
                 <div class="col-6">
                     <a href="dental-shop.html">
-                    <img id="shopImage1" src="images/Shop/ShopCategory1.png" alt="">
-                    <div class="shopoverlay">
-                        Dental Products
-                    </div>
-                </a>
+                        <img id="shopImage1" src="images/Shop/ShopCategory1.png" alt="">
+                        <div class="shopoverlay">
+                            Dental Products
+                        </div>
+                    </a>
                 </div>
                 <div class="col-6">
-                    <img id="shopImage2" src="images/Shop/ShopCategory2.png" alt="">
-                    <div class="shopoverlay">
-                        Skin Care Products
-                    </div>
+                    <a href="skincare-shop-categories.html">
+                        <img id="shopImage2" src="images/Shop/ShopCategory2.png" alt="">
+                        <div class="shopoverlay">
+                            Skin Care Products
+                        </div>
+                    </a>
+
                 </div>
             </div>
 
         </div>
         <div id="secondShopComponent" style="padding-top: 7%;">
             <h2>Our top-rated products</h2>
-            <div class="row" style="text-align: center;">
+            <button class="toprated-nav" style="float: left;" onclick="prevProduct()"><img src="images/Thick-Left-Arrow.svg" ></button>
+            <button class="toprated-nav" style="float: right;" onclick="nextProduct()"><img src="images/Thick-Right-Arrow.svg" ></button>
+            <div class="row" style="text-align: center; width: 90%; margin: auto;">
                 <div class="col-3">
-                    <img src="images/Shop/Product1.png" alt="">
+                    <a id="shopProductImagesmall" href="product-detail.html">
+                        <img src="images/Shop/Product1.png" alt="">
+                    </a>
+                    <div class="productoverviewsmall">
+                        Overview
+                    </div>
+                    
                     <h5>Mollis oral irrigators</h5>
                     <span>£15</span>
-                    <button>ADD TO CART</button>
+                    <button class="addtocard">ADD TO CART</button>
 
                 </div>
                 <div class="col-3">
-                    <img src="images/Shop/Product2.png" alt="">
+                    <a id="shopProductImagesmall" href="product-detail.html">
+                        <img src="images/Shop/Product2.png" alt="">
+                    </a>
+                    <div class="productoverviewsmall">
+                        Overview
+                    </div>
                     <h5>Amet mattis tongue cleaner</h5>
                     <span>£12</span>
-                    <button>ADD TO CART</button>
+                    <button class="addtocard">ADD TO CART</button>
                 </div>
                 <div class="col-3">
-                    <img src="images/Shop/Product3.png" alt="">
+                    <a id="shopProductImagesmall" href="product-detail.html">
+                        <img src="images/Shop/Product3.png" alt="">
+                    </a>
+                    <div class="productoverviewsmall">
+                        Overview
+                    </div>
                     <h5>Federjco Mahora Cleanser</h5>
                     <span>£15</span>
-                    <button>ADD TO CART</button>
+                    <button class="addtocard">ADD TO CART</button>
                 </div>
                 <div class="col-3">
-                    <img src="images/Shop/Product4.png" alt="">
+                    <a id="shopProductImagesmall" href="product-detail.html">
+                        <img src="images/Shop/Product4.png" alt="">
+                    </a>
+                    <div class="productoverviewsmall">
+                        Overview
+                    </div>
                     <h5>La Roche-Posay sunscreen</h5>
                     <span>£12</span>
-                    <button>ADD TO CART</button>
+                    <button class="addtocard">ADD TO CART</button>
                 </div>
             </div>
         </div>

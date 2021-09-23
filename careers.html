@@ -95,21 +95,21 @@
             <h5 id="CareerTitles">OUR CORE VALUES</h5>
             <h2>Lorem ipsum dolor sit consectetur</h2>
 
-            <div id="01 Lorem ipsum dolor sit consectetur" class="tabcontent" style="display: block;">
+            <div id="tabcontent1" class="tabcontent" style="display: block;">
                 Accumsan lorem urna ultricies blandit facilisis diam dictumst. Mi imperdiet nec feugiat enim et
                 sagittis.
             </div>
 
-            <div id="02 Sed vitae" class="tabcontent">
+            <div id="tabcontent2" class="tabcontent">
                 Sed laoreet a aenean id sed bibendum neque. Eros adipiscing ullamcorper donec enim a.
             </div>
 
-            <div id="03 Tristique nunc rhoncus in" class="tabcontent">
+            <div id="tabcontent3" class="tabcontent">
                 Vel at vitae venenatis ac cursus sit duis duis. Lobortis a consectetur viverra odio scelerisque turpis
                 vitae neque aenean.
             </div>
 
-            <div id="04 Sem ultrices in" class="tabcontent">
+            <div id="tabcontent4" class="tabcontent">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor non massa, semper vel ullamcorper et a
             </div>
 
@@ -120,15 +120,13 @@
 
 
             <div class="tab">
-                <button class="tablinks 01 Lorem ipsum dolor sit
-                consectetur active" onclick="openTab(event, '01 Lorem ipsum dolor sit consectetur')"
-                    style="margin-left:1.1%;">01 Lorem ipsum dolor sit
+                <button class="tablinks 1 active" onclick="openTab(event, 'tabcontent1')" style="margin-left:1.1%;">01
+                    Lorem ipsum dolor sit
                     consectetur</button>
-                <button class="tablinks 02 Sed vitae" onclick="openTab(event, '02 Sed vitae')">02 Sed vitae</button>
-                <button class="tablinks 03 Tristique nunc  
-                rhoncus in" onclick="openTab(event, '03 Tristique nunc rhoncus in')">03 Tristique nunc
+                <button class="tablinks 2" onclick="openTab(event, 'tabcontent2')">02 Sed vitae</button>
+                <button class="tablinks 3" onclick="openTab(event, 'tabcontent3')">03 Tristique nunc
                     rhoncus in</button>
-                <button class="tablinks 04 Sem ultrices in" onclick="openTab(event, '04 Sem ultrices in')">04 Sem
+                <button class="tablinks 4" onclick="openTab(event, 'tabcontent4')">04 Sem
                     ultrices in
                 </button>
 
@@ -152,26 +150,43 @@
                 }
 
                 function nextTab() {
-                    $('button.tablinks').removeClass('active');
-                    var id = $('.tabcontent:visible').attr('id');
-                    console.log(id);
-                    $("#" + id).hide();
-                    $('.tabcontent:visible').next('.tabcontent').show();
+                    var tablinks, tablinkindex, tabContentNumber;
+                    tablinks = document.getElementsByClassName("tablinks");
+                    for (i = 0; i < tablinks.length; i++) {
+                        if (tablinks[i].classList.contains("active")) {
+                            tablinkindex = i;
+                            tabContentNumber = tablinks[i].classList[1];
+                        }
+                    }
 
-                    id = $('.tabcontent:visible').attr('id');
-                    $('button.tablinks.' + id).addClass('active');
+                    if (tablinkindex != ((tablinks.length) - 1))  {
+                        tablinks[tablinkindex].classList.remove("active");
+                        tablinks[tablinkindex + 1].classList.add("active");
+                        document.getElementById("tabcontent" + tabContentNumber).style.display = "none";
+                        tabContentNumber = parseInt(tabContentNumber) +  parseInt(1);
+                        document.getElementById("tabcontent" + tabContentNumber).style.display = "block";
+                    }
 
                 }
 
                 function previousTab() {
-                    $('button.tablinks').removeClass('active');
-                    var id = $('.tabcontent:visible').attr('id');
-                    console.log(id);
-                    $("#" + id).hide();
-                    $('.tabcontent:visible').prev('.tabcontent').show();
 
-                    id = $('.tabcontent:visible').attr('id');
-                    $('button.tablinks.' + id).addClass('active');
+                    var tablinks, tablinkindex, tabContentNumber;
+                    tablinks = document.getElementsByClassName("tablinks");
+                    for (i = 0; i < tablinks.length; i++) {
+                        if (tablinks[i].classList.contains("active")) {
+                            tablinkindex = i;
+                            tabContentNumber = tablinks[i].classList[1];
+                        }
+                    }
+
+                    if (tablinkindex > 0) {
+                        tablinks[tablinkindex].classList.remove("active");
+                        tablinks[tablinkindex - 1].classList.add("active");
+                        document.getElementById("tabcontent" + tabContentNumber).style.display = "none";
+                        tabContentNumber = tabContentNumber - 1;
+                        document.getElementById("tabcontent" + tabContentNumber).style.display = "block";
+                    }
 
                 }
             </script>

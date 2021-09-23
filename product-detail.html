@@ -70,7 +70,32 @@
             style="padding-left:3%; padding-right:3%; padding-bottom: 5%;">
             <div class="row">
                 <div class="col-6">
-                    <img src="images/Shop/DentalProduct1.png" style="width: 100%;">
+
+                    <img id="ImageButton1" class="imageContent" src="images/Shop/DentalProduct1.png"
+                        style="width: 100%;">
+                    <img id="ImageButton2" class="imageContent" src="images/Shop/DentalProduct1-1.png"
+                        style="width: 100%;">
+                    <img id="ImageButton3" class="imageContent" src="images/Shop/DentalProduct1-2.png"
+                        style="width: 100%;">
+                    <img id="ImageButton4" class="imageContent" src="images/Shop/DentalProduct1-3.png"
+                        style="width: 100%;">
+                    <img id="ImageButton5" class="imageContent" src="images/Shop/DentalProduct1-4.jpg"
+                        style="width: 100%;">
+
+
+                    <div class="pagination"
+                        style="background-color: rgba(122, 137, 110, 0); padding-top: 5%; display: flex; justify-content: center;">
+                        <button class="imagebuttons 1" onclick="openImage('ImageButton1', this)" id="defaultOpen2"><img
+                                src="images/Bullet.svg" alt=""></button>
+                        <button class="imagebuttons 2" onclick="openImage('ImageButton2', this)"><img
+                                src="images/Bullet.svg" alt=""></button>
+                        <button class="imagebuttons 3" onclick="openImage('ImageButton3', this)"><img
+                                src="images/Bullet.svg" alt=""></button>
+                        <button class="imagebuttons 4" onclick="openImage('ImageButton4', this)"><img
+                                src="images/Bullet.svg" alt=""></button>
+                        <button class="imagebuttons 5" onclick="openImage('ImageButton5', this)"><img
+                                src="images/Bullet.svg" alt=""></button>
+                    </div>
                 </div>
                 <div class="col-6">
                     <h3>A egestas aenean toothbrush</h3>
@@ -96,7 +121,7 @@
                             +
                         </div>
                     </div>
-                    <button style="display: inline;">ADD TO CART</button>
+                    <button style="display: inline;" id="addToCart">ADD TO CART</button>
                     <hr>
                 </div>
             </div>
@@ -162,59 +187,289 @@
 
             <div id="Reviews" class="tabcontent">
                 <h3>Reviews</h3>
-                <div style="background-color: rgba(122, 137, 110, 0);">
-                    <div id="reviewName">Nada E. <br> 5/28/21</div>
-                    <div class="row" id="star-rating2" style="margin-left:1%;">
-                        <div class="col"> <img src=" images/star2.svg"></div>
-                        <div class="col"> <img src=" images/star2.svg"></div>
-                        <div class="col"> <img src=" images/star2.svg"></div>
-                        <div class="col"> <img src=" images/star2.svg"></div>
-                        <div class="col"> <img src=" images/star2.svg"></div>
+                <div id="Reviews1" class='numbercontent' style="display: block;">
+                    <div style="background-color: rgba(122, 137, 110, 0);">
+                        <div id="reviewName">Nada E. <br> 5/28/21</div>
+                        <div class="row" id="star-rating2" style="margin-left:1%;">
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                        </div>
+                        <div id="reviewText">
+                            Perfect, Love it!
+                        </div>
                     </div>
-                    <div id="reviewText">
-                        Perfect, Love it!
+                    <hr style="border-color: rgba(0, 0, 0, 0.336); width: 90%; margin-top: 2%;margin-bottom: 2%;">
+                    <div style="background-color: rgba(122, 137, 110, 0);">
+                        <div id="reviewName">Hannah J. <br> 5/28/21</div>
+                        <div class="row" id="star-rating2" style="margin-left:1%;">
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2unfilled.svg"></div>
+                        </div>
+                        <div id="reviewText">
+                            I Like it
+                        </div>
+                    </div>
+                    <hr style="border-color: rgba(0, 0, 0, 0.336); width: 90%; margin-top: 2%;margin-bottom: 2%;">
+                    <div style="background-color: rgba(122, 137, 110, 0);">
+                        <div id="reviewName">Sarah Y. <br> 5/28/21</div>
+                        <div class="row" id="star-rating2" style="margin-left:1%;">
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2unfilled.svg"></div>
+                        </div>
+                        <div id="reviewText">
+                            Dolor velit habitasse etiam dui. Quis ipsum neque ullamcorper id lobortis cras libero
+                            tellus. At
+                            sit faucibus sit nunc venenatis viverra tellus. A eget euismod vel odio. Id aliquet lorem.
+                        </div>
                     </div>
                 </div>
-                <hr style="border-color: rgba(0, 0, 0, 0.336); width: 90%; margin-top: 2%;margin-bottom: 2%;">
-                <div style="background-color: rgba(122, 137, 110, 0);">
-                    <div id="reviewName">Hannah J. <br> 5/28/21</div>
-                    <div class="row" id="star-rating2" style="margin-left:1%;">
-                        <div class="col"> <img src=" images/star2.svg"></div>
-                        <div class="col"> <img src=" images/star2.svg"></div>
-                        <div class="col"> <img src=" images/star2.svg"></div>
-                        <div class="col"> <img src=" images/star2.svg"></div>
-                        <div class="col"> <img src=" images/star2unfilled.svg"></div>
+                <div id="Reviews2" class='numbercontent'>
+                    <div style="background-color: rgba(122, 137, 110, 0);">
+                        <div id="reviewName">Rasha E. <br> 5/28/21</div>
+                        <div class="row" id="star-rating2" style="margin-left:1%;">
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                        </div>
+                        <div id="reviewText">
+                            Perfect, Love it!
+                        </div>
                     </div>
-                    <div id="reviewText">
-                        I Like it
+                    <hr style="border-color: rgba(0, 0, 0, 0.336); width: 90%; margin-top: 2%;margin-bottom: 2%;">
+                    <div style="background-color: rgba(122, 137, 110, 0);">
+                        <div id="reviewName">Sarah Y. <br> 5/28/21</div>
+                        <div class="row" id="star-rating2" style="margin-left:1%;">
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2unfilled.svg"></div>
+                        </div>
+                        <div id="reviewText">
+                            Dolor velit habitasse etiam dui. Quis ipsum neque ullamcorper id lobortis cras libero
+                            tellus. At
+                            sit faucibus sit nunc venenatis viverra tellus. A eget euismod vel odio. Id aliquet lorem.
+                        </div>
+                    </div>
+                    <hr style="border-color: rgba(0, 0, 0, 0.336); width: 90%; margin-top: 2%;margin-bottom: 2%;">
+                    <div style="background-color: rgba(122, 137, 110, 0);">
+                        <div id="reviewName">Mohammed J. <br> 5/28/21</div>
+                        <div class="row" id="star-rating2" style="margin-left:1%;">
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2unfilled.svg"></div>
+                        </div>
+                        <div id="reviewText">
+                            I Like it
+                        </div>
+                    </div>
+
+                </div>
+                <div id="Reviews3" class='numbercontent'>
+                    <div style="background-color: rgba(122, 137, 110, 0);">
+                        <div id="reviewName">Passant A. <br> 5/28/21</div>
+                        <div class="row" id="star-rating2" style="margin-left:1%;">
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                        </div>
+                        <div id="reviewText">
+                            Amazing, Love it!
+                        </div>
+                    </div>
+                    <hr style="border-color: rgba(0, 0, 0, 0.336); width: 90%; margin-top: 2%;margin-bottom: 2%;">
+                    <div style="background-color: rgba(122, 137, 110, 0);">
+                        <div id="reviewName">John M. <br> 5/28/21</div>
+                        <div class="row" id="star-rating2" style="margin-left:1%;">
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2unfilled.svg"></div>
+                        </div>
+                        <div id="reviewText">
+                            Great Service
+                        </div>
+                    </div>
+                    <hr style="border-color: rgba(0, 0, 0, 0.336); width: 90%; margin-top: 2%;margin-bottom: 2%;">
+                    <div style="background-color: rgba(122, 137, 110, 0);">
+                        <div id="reviewName">Sarah Y. <br> 5/28/21</div>
+                        <div class="row" id="star-rating2" style="margin-left:1%;">
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2unfilled.svg"></div>
+                        </div>
+                        <div id="reviewText">
+                            Dolor velit habitasse etiam dui. Quis ipsum neque ullamcorper id lobortis cras libero
+                            tellus. At
+                            sit faucibus sit nunc venenatis viverra tellus. A eget euismod vel odio. Id aliquet lorem.
+                        </div>
                     </div>
                 </div>
-                <hr style="border-color: rgba(0, 0, 0, 0.336); width: 90%; margin-top: 2%;margin-bottom: 2%;">
-                <div style="background-color: rgba(122, 137, 110, 0);">
-                    <div id="reviewName">Sarah Y. <br> 5/28/21</div>
-                    <div class="row" id="star-rating2" style="margin-left:1%;">
-                        <div class="col"> <img src=" images/star2.svg"></div>
-                        <div class="col"> <img src=" images/star2.svg"></div>
-                        <div class="col"> <img src=" images/star2.svg"></div>
-                        <div class="col"> <img src=" images/star2.svg"></div>
-                        <div class="col"> <img src=" images/star2unfilled.svg"></div>
+                <div id="Reviews4" class='numbercontent'>
+                    <div style="background-color: rgba(122, 137, 110, 0);">
+                        <div id="reviewName">Mariam A. <br> 5/28/21</div>
+                        <div class="row" id="star-rating2" style="margin-left:1%;">
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                        </div>
+                        <div id="reviewText">
+                            Beyond Expectations
+                        </div>
                     </div>
-                    <div id="reviewText">
-                        Dolor velit habitasse etiam dui. Quis ipsum neque ullamcorper id lobortis cras libero tellus. At
-                        sit faucibus sit nunc venenatis viverra tellus. A eget euismod vel odio. Id aliquet lorem.
+                    <hr style="border-color: rgba(0, 0, 0, 0.336); width: 90%; margin-top: 2%;margin-bottom: 2%;">
+                    <div style="background-color: rgba(122, 137, 110, 0);">
+                        <div id="reviewName">Hannah J. <br> 5/28/21</div>
+                        <div class="row" id="star-rating2" style="margin-left:1%;">
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2unfilled.svg"></div>
+                        </div>
+                        <div id="reviewText">
+                            I Liked it alot
+                        </div>
+                    </div>
+                    <hr style="border-color: rgba(0, 0, 0, 0.336); width: 90%; margin-top: 2%;margin-bottom: 2%;">
+                    <div style="background-color: rgba(122, 137, 110, 0);">
+                        <div id="reviewName">Sarah Y. <br> 5/28/21</div>
+                        <div class="row" id="star-rating2" style="margin-left:1%;">
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2unfilled.svg"></div>
+                        </div>
+                        <div id="reviewText">
+                            Dolor velit habitasse etiam dui. Quis ipsum neque ullamcorper id lobortis cras libero
+                            tellus. At
+                            sit faucibus sit nunc venenatis viverra tellus. A eget euismod vel odio. Id aliquet lorem.
+                        </div>
                     </div>
                 </div>
-                
-                <div class="pagination" style="background-color: rgba(122, 137, 110, 0); padding-top: 5%; display: flex; justify-content: center;">
-                    <a href="#">&laquo;</a>
-                    <a class="active" href="#">1</a>
-                    <a  href="#">2</a>
-                    <a href="#">3</a>
-                    <a href="#">4</a>
-                    <a href="#">5</a>
-                    <a href="#">6</a>
-                    <a href="#">&raquo;</a>
-                  </div>
+                <div id="Reviews5" class='numbercontent'>
+                    <div style="background-color: rgba(122, 137, 110, 0);">
+                        <div id="reviewName">Nada E. <br> 5/28/21</div>
+                        <div class="row" id="star-rating2" style="margin-left:1%;">
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                        </div>
+                        <div id="reviewText">
+                            Perfect, Love it!
+                        </div>
+                    </div>
+                    <hr style="border-color: rgba(0, 0, 0, 0.336); width: 90%; margin-top: 2%;margin-bottom: 2%;">
+                    <div style="background-color: rgba(122, 137, 110, 0);">
+                        <div id="reviewName">Hannah J. <br> 5/28/21</div>
+                        <div class="row" id="star-rating2" style="margin-left:1%;">
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2unfilled.svg"></div>
+                        </div>
+                        <div id="reviewText">
+                            I Like it
+                        </div>
+                    </div>
+                    <hr style="border-color: rgba(0, 0, 0, 0.336); width: 90%; margin-top: 2%;margin-bottom: 2%;">
+                    <div style="background-color: rgba(122, 137, 110, 0);">
+                        <div id="reviewName">Sarah Y. <br> 5/28/21</div>
+                        <div class="row" id="star-rating2" style="margin-left:1%;">
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2unfilled.svg"></div>
+                        </div>
+                        <div id="reviewText">
+                            Dolor velit habitasse etiam dui. Quis ipsum neque ullamcorper id lobortis cras libero
+                            tellus. At
+                            sit faucibus sit nunc venenatis viverra tellus. A eget euismod vel odio. Id aliquet lorem.
+                        </div>
+                    </div>
+                </div>
+                <div id="Reviews6" class='numbercontent'>
+                    <div style="background-color: rgba(122, 137, 110, 0);">
+                        <div id="reviewName">Sarah E. <br> 5/28/21</div>
+                        <div class="row" id="star-rating2" style="margin-left:1%;">
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                        </div>
+                        <div id="reviewText">
+                            Great!
+                        </div>
+                    </div>
+                    <hr style="border-color: rgba(0, 0, 0, 0.336); width: 90%; margin-top: 2%;margin-bottom: 2%;">
+                    <div style="background-color: rgba(122, 137, 110, 0);">
+                        <div id="reviewName">Zack J. <br> 5/28/21</div>
+                        <div class="row" id="star-rating2" style="margin-left:1%;">
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2unfilled.svg"></div>
+                        </div>
+                        <div id="reviewText">
+                            Perfect!
+                        </div>
+                    </div>
+                    <hr style="border-color: rgba(0, 0, 0, 0.336); width: 90%; margin-top: 2%;margin-bottom: 2%;">
+                    <div style="background-color: rgba(122, 137, 110, 0);">
+                        <div id="reviewName">Sarah Y. <br> 5/28/21</div>
+                        <div class="row" id="star-rating2" style="margin-left:1%;">
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2.svg"></div>
+                            <div class="col"> <img src=" images/star2unfilled.svg"></div>
+                        </div>
+                        <div id="reviewText">
+                            Dolor velit habitasse etiam dui. Quis ipsum neque ullamcorper id lobortis cras libero
+                            tellus. At
+                            sit faucibus sit nunc venenatis viverra tellus. A eget euismod vel odio. Id aliquet lorem.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pagination"
+                    style="background-color: rgba(122, 137, 110, 0); padding-top: 5%; display: flex; justify-content: center;">
+                    <button class="numberbuttons" onclick="openPreviousReview()">&laquo;</button>
+                    <button class="numberbuttons 1" onclick="openReview('Reviews1', this)" id="defaultOpen1">1</button>
+                    <button class="numberbuttons 2" onclick="openReview('Reviews2', this)">2</button>
+                    <button class="numberbuttons 3" onclick="openReview('Reviews3', this)">3</button>
+                    <button class="numberbuttons 4" onclick="openReview('Reviews4', this)">4</button>
+                    <button class="numberbuttons 5" onclick="openReview('Reviews5', this)">5</button>
+                    <button class="numberbuttons 6" onclick="openReview('Reviews6', this)">6</button>
+                    <button class="numberbuttons" onclick="openNextReview()">&raquo;</button>
+                </div>
             </div>
         </div>
 
@@ -232,11 +487,11 @@
                 <label for="review">Your Review
                     <div class="row" id="star-rating2"
                         style="text-align: center;padding-left: 1%; width: 15%; padding-top: 1%;">
-                        <div class="col"> <img src=" images/starunfilled.svg"></div>
-                        <div class="col"> <img src=" images/starunfilled.svg"></div>
-                        <div class="col"> <img src=" images/starunfilled.svg"></div>
-                        <div class="col"> <img src=" images/starunfilled.svg"></div>
-                        <div class="col"> <img src=" images/starunfilled.svg"></div>
+                        <div class="col"> <img src=" images/starunfilled.svg" onmouseover="this.src='images/star.svg'" onmouseout="this.src='images/starunfilled.svg'"></div>
+                        <div class="col"> <img src=" images/starunfilled.svg" onmouseover="this.src='images/star.svg'" onmouseout="this.src='images/starunfilled.svg'"></div>
+                        <div class="col"> <img src=" images/starunfilled.svg" onmouseover="this.src='images/star.svg'" onmouseout="this.src='images/starunfilled.svg'"></div>
+                        <div class="col"> <img src=" images/starunfilled.svg" onmouseover="this.src='images/star.svg'" onmouseout="this.src='images/starunfilled.svg'"></div>
+                        <div class="col"> <img src=" images/starunfilled.svg" onmouseover="this.src='images/star.svg'" onmouseout="this.src='images/starunfilled.svg'"></div>
                     </div>
                 </label>
                 <textarea id="review" name="review" placeholder="Enter your review"
@@ -248,33 +503,56 @@
 
             </form>
         </div>
-        <div id="secondShopComponent" style="padding-top: 4%;">
-            <h2>Our top-rated products</h2>
-            <div class="row" style="text-align: center;">
+        <div id="secondShopComponent" style="padding-top: 7%;">
+            <h2>Related products</h2>
+            <button class="toprated-nav" style="float: left;" onclick="prevProduct()"><img src="images/Thick-Left-Arrow.svg" ></button>
+            <button class="toprated-nav" style="float: right;" onclick="nextProduct()"><img src="images/Thick-Right-Arrow.svg" ></button>
+            <div class="row" style="text-align: center; width: 90%; margin: auto;">
                 <div class="col-3">
-                    <img src="images/Shop/Product1.png" alt="">
+                    <a id="shopProductImagesmall" href="product-detail.html">
+                        <img src="images/Shop/Product1.png" alt="">
+                    </a>
+                    <div class="productoverviewsmall">
+                        Overview
+                    </div>
+                    
                     <h5>Mollis oral irrigators</h5>
                     <span>£15</span>
-                    <button>ADD TO CART</button>
+                    <button class="addtocard">ADD TO CART</button>
 
                 </div>
                 <div class="col-3">
-                    <img src="images/Shop/Product2.png" alt="">
+                    <a id="shopProductImagesmall" href="product-detail.html">
+                        <img src="images/Shop/Product2.png" alt="">
+                    </a>
+                    <div class="productoverviewsmall">
+                        Overview
+                    </div>
                     <h5>Amet mattis tongue cleaner</h5>
                     <span>£12</span>
-                    <button>ADD TO CART</button>
+                    <button class="addtocard">ADD TO CART</button>
                 </div>
                 <div class="col-3">
-                    <img src="images/Shop/Product3.png" alt="">
+                    <a id="shopProductImagesmall" href="product-detail.html">
+                        <img src="images/Shop/Product3.png" alt="">
+                    </a>
+                    <div class="productoverviewsmall">
+                        Overview
+                    </div>
                     <h5>Federjco Mahora Cleanser</h5>
                     <span>£15</span>
-                    <button>ADD TO CART</button>
+                    <button class="addtocard">ADD TO CART</button>
                 </div>
                 <div class="col-3">
-                    <img src="images/Shop/Product4.png" alt="">
+                    <a id="shopProductImagesmall" href="product-detail.html">
+                        <img src="images/Shop/Product4.png" alt="">
+                    </a>
+                    <div class="productoverviewsmall">
+                        Overview
+                    </div>
                     <h5>La Roche-Posay sunscreen</h5>
                     <span>£12</span>
-                    <button>ADD TO CART</button>
+                    <button class="addtocard">ADD TO CART</button>
                 </div>
             </div>
         </div>
@@ -542,7 +820,85 @@
         elmnt.style.backgroundColor = color;
     }
 
+    function openReview(reviewName, elmnt) {
+        // Hide all elements with class="tabcontent" by default */
+        var i, numbercontent, numberbuttons;
+        numbercontent = document.getElementsByClassName("numbercontent");
+        for (i = 0; i < numbercontent.length; i++) {
+            numbercontent[i].style.display = "none";
+        }
+
+        numberbuttons = document.getElementsByClassName("numberbuttons");
+        for (i = 0; i < numberbuttons.length; i++) {
+            numberbuttons[i].classList.remove("active");
+        }
+
+
+        // Show the specific tab content
+        document.getElementById(reviewName).style.display = "block";
+        elmnt.classList.add("active");
+
+    }
+
+    function openPreviousReview() {
+
+        var buttonindex, reviewNumber,numberbuttons;
+        numberbuttons = document.getElementsByClassName("numberbuttons");
+        for (i = 0; i < numberbuttons.length; i++) {
+            if (numberbuttons[i].classList.contains("active")) {
+                buttonindex = i;
+                reviewNumber = numberbuttons[i].classList[1];
+            }
+        }
+        if (buttonindex > 1) {
+            numberbuttons[buttonindex].classList.remove("active");
+            numberbuttons[buttonindex - 1].classList.add("active");
+            document.getElementById("Reviews" + reviewNumber).style.display = "none";
+            reviewNumber = reviewNumber - 1;
+            document.getElementById("Reviews" + reviewNumber).style.display = "block";
+        }
+    }
+
+    function openNextReview() {
+        var buttonindex, reviewNumber;
+        numberbuttons = document.getElementsByClassName("numberbuttons");
+        for (i = 0; i < numberbuttons.length; i++) {
+            if (numberbuttons[i].classList.contains("active")) {
+                buttonindex = i;
+                reviewNumber = numberbuttons[i].classList[1];
+            }
+        }
+        if (buttonindex != ((numberbuttons.length) - 2)) {
+            numberbuttons[buttonindex].classList.remove("active");
+            numberbuttons[buttonindex + 1].classList.add("active");
+            document.getElementById("Reviews" + reviewNumber).style.display = "none";
+            reviewNumber = parseInt(reviewNumber) + parseInt(1);
+            document.getElementById("Reviews" + reviewNumber).style.display = "block";
+        }
+    }
+    
+    function openImage(imageName, elmnt) {
+        // Hide all elements with class="tabcontent" by default */
+        var i, imageContent, imagebuttons;
+        imageContent = document.getElementsByClassName("imageContent");
+        for (i = 0; i < imageContent.length; i++) {
+            imageContent[i].style.display = "none";
+        }
+
+        imagebuttons = document.getElementsByClassName("imagebuttons");
+        for (i = 0; i < imagebuttons.length; i++) {
+            imagebuttons[i].children[0].src="images/Bullet.svg";
+        }
+
+        // Show the specific tab content
+        document.getElementById(imageName).style.display = "block";
+        elmnt.children[0].src="images/Bullet2.svg";
+        
+
+    }
     document.getElementById("defaultOpen").click();
+    document.getElementById("defaultOpen1").click();
+    document.getElementById("defaultOpen2").click();
 </script>
 
 </html>
