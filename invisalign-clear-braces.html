@@ -22,46 +22,259 @@
                     </a>
                 </div>
                 <div class="navbar-left">
-                    <div class="nav-item dropdown" style="width:fit-content; float: left;">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Treatments
 
-                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </a>
+                    <div class="nav-item dropdown" style="padding-top: 1.5%; float: left;">
+                        <a onclick="treatmentFunction()" class="dropbtn1 nav-links">Treatments <img
+                                src="images/arrow-down.svg" alt=""></a>
+                        <div id="treatmentDropdown" class="dropdown-content1">
+                            <div class="container-fluid" style="border-radius: 10px;">
+                                <div class="row" style="width: 680px; border-radius: 10px;">
+                                    <div class="col-6"
+                                        style="border-right: 0.2px solid #1d321ed0; border-radius: 10px 0px 0px 10px;">
+                                        <h5>Dental</h5>
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-6"
+                                                    style="border-right: 0.1px solid rgba(0, 0, 0, 0.2); padding-left: 0%;">
+                                                    <a href="#">Dental Exam & X Rays</a>
+                                                    <a href="#">Hygiene & Cleaning</a>
+                                                    <a href="#">Emergency Dentist</a>
+                                                    <a href="#">Fillings</a>
+                                                    <a href="#">Crowns</a>
+                                                    <a href="#">Bridges</a>
+                                                    <a href="#">Extractions</a>
+                                                    <a href="#" style="padding-bottom: 10%;">Root Canals</a>
+                                                </div>
+                                                <div class="col-6" style="padding-right: 0%;">
+                                                    <a href="invisalign-clear-braces.html">Invisalign Clear Braces</a>
+                                                    <a href="#">Deep Gums</a>
+                                                    <a href="#">Children’s Dentistry</a>
+                                                    <a href="#">Dental Implants</a>
+                                                    <a href="#">Smile Makeover</a>
+                                                    <a href="#">Veneers</a>
+                                                    <a href="#">Teeth Whitening</a>
+                                                    <a href="#" style="padding-bottom: 10%;">Gum Reshaping</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6" style="border-radius: 0px 10px 10px 0px;">
+                                        <h5>Facial Aesthetics</h5>
+                                        <a href="#" style="padding-top: 7%;">Dermal Fillers</a>
+                                        <a href="skin-treatments.html" style="padding-top: 7%;">Skin Treatments &
+                                            Mesotherapy</a>
+                                        <a href="#" style="padding-top: 7%;">Micropigmentation</a>
+                                        <a href="#" style="padding-top: 7%;">Threads</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
                     </div>
 
-                    <div class="nav-item dropdown" style="width:fit-content; float: left;">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Our Fees
-                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </a>
+                    <div class="nav-item dropdown" style="padding-top: 1.5%; float: left;">
+                        <a onclick="feesGuideFunction()" class="dropbtn2 nav-links">Fees Guide <img
+                                src="images/arrow-down.svg" alt=""></a>
+                        <div id="feesguideDropdown" class="dropdown-content2">
+                            <a href="generalDentistry_Fees.html" style="padding-top: 6%;">General Dentistry</a>
+                            <hr>
+                            <a href="hygiene&periodontal_Fees.html">Hygiene & Periodontal</a>
+                            <hr>
+                            <a href="cosmesticDentistry_Fees.html">Cosmetic Dentistry</a>
+                            <hr>
+                            <a href="facialAesthetics_Fees.html">Facial Aesthetics</a>
+                            <hr>
+                            <a href="skinTreatments_Fees.html" style="padding-bottom: 6%;">Skin Treatments</a>
+                        </div>
+                    </div>
+
+
+                    <div class="nav-item" style="padding-top:1.5%; float: left;">
+                        <a class="nav-links" href="shop.html"> Shop </a>
                     </div>
 
                     <div class="nav-item" style="padding-top:1.5%; float: left;">
-                        <a href="/"> Shop </a>
+                        <a class="nav-links" href="ourTeam.html"> Our Team </a>
                     </div>
 
-                    <div class="nav-item" style="padding-top:1.5%; float: left;">
-                        <a href="ourTeam.html"> Our Team </a>
-                    </div>
+
                 </div>
                 <div class="navbar-right">
                     <a href="/"> CALL NOW </a>
                     <button>BOOK NOW</button>
-                    <img src="images/cart.svg" style='height: 28px ; width: 28px;' />
+                    <div style="float: right; padding-top: 2%;">
+                        <a onclick="cartFunction()" class="dropbtn3">
+                            <img src="images/cart.svg" style='height: 28px ; width: 28px;' /> 
+                        </a>
+                        <div id="cartDropdown" class="dropdown-content3">
+                            <div style="margin-bottom: 20%;">
+                                <h4>Your cart</h4>
+                                <div 
+                                    style="float: right; color: #974A16; padding-top: 5%; padding-right: 4%; font-size: 1.4em; border-radius: 10px;">
+                                    &#10006</div>
+                            </div>
+                            <div class="container-fluid" style="border-radius: 10%;">
+                                <div class="row" style="border-radius: 10%;">
+                                    <div class="col-4">
+                                        <img src="images/Shop/SkinProduct2.png"
+                                            style="width: 100%; border: 0.1px solid rgba(0, 0, 0, 0.294); border-radius: 40%; padding-left: 3%;"
+                                            alt="">
+                                    </div>
+                                    <div class="col-4">
+                                        <h5>Federjco Mahora Cleanser</h5>
+                                        <h6>1x£12</h6>
+                                    </div>
+                                    <div class="col-4">
+                                        <div
+                                            style="float: right; color: #1D321E; padding-top: 10%; padding-right: 4%; font-size: 0.8em; border-radius: 10px;">
+                                            &#10006</div>
+                                        <div class="row"
+                                            style="display: inline; width: 50%; padding-left: 3%; text-align: center;">
+                                            <div class="col-4 productNumber"
+                                                style="border-right: 0.1px solid #1d321e38;">
+                                                -
+                                            </div>
+                                            <div class="col-4 productNumber"
+                                                style="border-right: 0.1px solid #1d321e38;">
+                                                1
+                                            </div>
+                                            <div class="col-4 productNumber">
+                                                +
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row" style="border-radius: 10%;">
+                                    <div class="col-4">
+                                        <img src="images/Shop/DentalProduct3.png"
+                                            style="width: 100%; border: 0.1px solid rgba(0, 0, 0, 0.294); border-radius: 40%; padding-left: 3%;"
+                                            alt="">
+                                    </div>
+                                    <div class="col-4">
+                                        <h5>Tongue Cleaner</h5>
+                                        <h6>2x£12</h6>
+                                    </div>
+                                    <div class="col-4">
+                                        <div
+                                            style="float: right; color: #1D321E; padding-top: 10%; padding-right: 4%; font-size: 0.8em; border-radius: 10px;">
+                                            &#10006</div>
+                                        <div class="row"
+                                            style="display: inline; width: 50%; padding-left: 3%; text-align: center;">
+                                            <div class="col-4 productNumber"
+                                                style="border-right: 0.1px solid #1d321e38;">
+                                                -
+                                            </div>
+                                            <div class="col-4 productNumber"
+                                                style="border-right: 0.1px solid #1d321e38;">
+                                                2
+                                            </div>
+                                            <div class="col-4 productNumber">
+                                                +
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <h3 style="float: left; padding-left: 5%; font-size: 1.3em;">SubTotal</h3>
+                                <h6 style="font-size: 1.4em; padding-right: 5%; margin-bottom: 4%;">£36</h6>
+
+                            </div>
+                            <button onclick="location.href='checkout.html';">Checkout</button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </nav>
+        <script>
+            function treatmentFunction() {
+                document.getElementById("treatmentDropdown").classList.toggle("show");
+                if (document.getElementById("treatmentDropdown").classList.contains('show')) {
+                    document.getElementById("treatmentDropdown").style.display = "block";
+                }
+                else {
+                    document.getElementById("treatmentDropdown").style.display = "none";
+                }
+            }
+
+            function feesGuideFunction() {
+                document.getElementById("feesguideDropdown").classList.toggle("show");
+                if (document.getElementById("feesguideDropdown").classList.contains('show')) {
+                    document.getElementById("feesguideDropdown").style.display = "block";
+                }
+                else {
+                    document.getElementById("feesguideDropdown").style.display = "none";
+                }
+            }
+
+            function cartFunction() {
+                document.getElementById("cartDropdown").classList.toggle("show");
+                if (document.getElementById("cartDropdown").classList.contains('show')) {
+                    document.getElementById("cartDropdown").style.display = "block";
+                }
+                else {
+                    document.getElementById("cartDropdown").style.display = "none";
+                }
+            }
+            function close(){
+                console.log("hi");
+                document.getElementById("cartDropdown").classList.toggle("show");
+                document.getElementById("cartDropdown").style.display = "none";
+            }
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = function (event) {
+                if (event.target.matches('.dropbtn1')) {
+                    if (document.getElementById("feesguideDropdown").classList.contains('show')) {
+                        document.getElementById("feesguideDropdown").classList.remove('show');
+                        document.getElementById("feesguideDropdown").style.display = "none";
+                    }
+                    if (document.getElementById("cartDropdown").classList.contains('show')) {
+                        document.getElementById("cartDropdown").classList.remove('show');
+                        document.getElementById("cartDropdown").style.display = "none";
+                    }
+
+                }
+                else if (event.target.matches('.dropbtn2')) {
+                    if (document.getElementById("treatmentDropdown").classList.contains('show')) {
+                        document.getElementById("treatmentDropdown").classList.remove('show');
+                        document.getElementById("treatmentDropdown").style.display = "none";
+                    } 
+                    if (document.getElementById("cartDropdown").classList.contains('show')) {
+                        document.getElementById("cartDropdown").classList.remove('show');
+                        document.getElementById("cartDropdown").style.display = "none";
+                    }
+
+                }
+                else if (event.target.matches('.dropbtn3')) {
+                    if (document.getElementById("treatmentDropdown").classList.contains('show')) {
+                        document.getElementById("treatmentDropdown").classList.remove('show');
+                        document.getElementById("treatmentDropdown").style.display = "none";
+                    } 
+                    if (document.getElementById("feesguideDropdown").classList.contains('show')) {
+                        document.getElementById("feesguideDropdown").classList.remove('show');
+                        document.getElementById("feesguideDropdown").style.display = "none";
+                    }
+
+                }
+                else {
+                    if (document.getElementById("feesguideDropdown").classList.contains('show')) {
+                        document.getElementById("feesguideDropdown").classList.remove('show');
+                        document.getElementById("feesguideDropdown").style.display = "none";
+
+                    }else if (document.getElementById("treatmentDropdown").classList.contains('show')) {
+                        document.getElementById("treatmentDropdown").classList.remove('show');
+                        document.getElementById("treatmentDropdown").style.display = "none";
+                    }
+                }
+            }
+
+
+
+        </script>
     </header>
     <div id="dentalTreatment-content" class="container-fluid no-padding" style="padding-left:0%; padding-right:0%">
         <div class="firstHomeComponent" style="padding-top: 5%;">

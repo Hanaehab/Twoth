@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
+
 <body>
     <header>
         <div id="top-label">DENTISTS RECOMMEND 2 EXAMS PER YEAR. BOOK YOUR EXAM TODAY.</div>
@@ -105,12 +106,12 @@
                     <button>BOOK NOW</button>
                     <div style="float: right; padding-top: 2%;">
                         <a onclick="cartFunction()" class="dropbtn3">
-                            <img src="images/cart.svg" style='height: 28px ; width: 28px;' /> 
+                            <img src="images/cart.svg" style='height: 28px ; width: 28px;' />
                         </a>
                         <div id="cartDropdown" class="dropdown-content3">
                             <div style="margin-bottom: 20%;">
                                 <h4>Your cart</h4>
-                                <div 
+                                <div
                                     style="float: right; color: #974A16; padding-top: 5%; padding-right: 4%; font-size: 1.4em; border-radius: 10px;">
                                     &#10006</div>
                             </div>
@@ -218,7 +219,7 @@
                     document.getElementById("cartDropdown").style.display = "none";
                 }
             }
-            function close(){
+            function close() {
                 console.log("hi");
                 document.getElementById("cartDropdown").classList.toggle("show");
                 document.getElementById("cartDropdown").style.display = "none";
@@ -241,7 +242,7 @@
                     if (document.getElementById("treatmentDropdown").classList.contains('show')) {
                         document.getElementById("treatmentDropdown").classList.remove('show');
                         document.getElementById("treatmentDropdown").style.display = "none";
-                    } 
+                    }
                     if (document.getElementById("cartDropdown").classList.contains('show')) {
                         document.getElementById("cartDropdown").classList.remove('show');
                         document.getElementById("cartDropdown").style.display = "none";
@@ -252,7 +253,7 @@
                     if (document.getElementById("treatmentDropdown").classList.contains('show')) {
                         document.getElementById("treatmentDropdown").classList.remove('show');
                         document.getElementById("treatmentDropdown").style.display = "none";
-                    } 
+                    }
                     if (document.getElementById("feesguideDropdown").classList.contains('show')) {
                         document.getElementById("feesguideDropdown").classList.remove('show');
                         document.getElementById("feesguideDropdown").style.display = "none";
@@ -264,7 +265,7 @@
                         document.getElementById("feesguideDropdown").classList.remove('show');
                         document.getElementById("feesguideDropdown").style.display = "none";
 
-                    }else if (document.getElementById("treatmentDropdown").classList.contains('show')) {
+                    } else if (document.getElementById("treatmentDropdown").classList.contains('show')) {
                         document.getElementById("treatmentDropdown").classList.remove('show');
                         document.getElementById("treatmentDropdown").style.display = "none";
                     }
@@ -275,21 +276,197 @@
 
         </script>
     </header>
-    <div id="home-content" class="container-fluid no-padding" style="padding-left:0%; padding-right:0%">
-        <div class="firstHomeComponent">
+    <div id="skinTreatment-content" class="container-fluid no-padding" style="padding-left:0%; padding-right:0%">
+        <div class="firstHomeComponent" style="padding-top: 5%;">
             <div class="row">
                 <div class="col" id="dentalTitle">
-                    <h1>Meet your new <br> dentist</h1>
-                    <h6>Dental done differently.</h6>
-                    <button>BOOK NOW</button>
+                    <h1>Skin Treatments and Mesotherapy </h1>
+                    <h6>For a limited time only, get £250 off when you book <br> your consult by 31 December 2021</h6>
+                    <button style="line-height: 1.4em; height: 8%;">BOOK NOW</button>
                 </div>
-                <div class="col" style="text-align: right; padding-right: 5%;">
-                    <img src="images/DentalHome.png" alt="Man Smiling at the clinic" style="width: 100%;">
+                <div class="col" style="text-align: right;">
+                    <img src="images/Twoth Profile.png" alt="Skin Treatment picture" style="width: 100%; opacity: 0.8;">
                 </div>
             </div>
         </div>
-        <hr>
-        <div class="secondHomeComponent">
+
+        <div class="secondSkinTreatmentComponent"
+            style="background-color: rgba(122, 137, 110, 0.15); padding-bottom: 4%;">
+            <div class="row" style="background-color: rgba(122, 137, 110, 0);">
+                <div class="col-6" style="background-color: rgba(122, 137, 110, 0);">
+                    <h2>Skin Treatments to Enhance the Natural Beauty You Already Have</h2>
+                </div>
+                <div class="col-6" style="background-color: rgba(122, 137, 110, 0);">
+                    <p>Dr Tara is trained in administering advanced skin treatments such as chemical peels and
+                        mesotherapy.
+                        <br> <br>
+                        Mesotherapy is a minimally invasive procedure where a series of superfine injections of
+                        vitamins, minerals and amino acids cocktails are delivered into the skin. This rejuvenates the
+                        skin.
+                        <br> <br>
+                        A chemical peel is where a chemical solution is applied to the skin that causes it to exfoliate
+                        and eventually peel off. Leaving you with regenerated skin that is smoother and less wrinkled.
+                        The level of chemical peel administered depends on your skin’s needs.
+                        <br> <br>
+                        Aquagold Finetouch is a luxury 24 carat gold facial device that delivers a personalised blend of
+                        ingredients into the skin via 20 fine microneedles. Ingredients are chosen especially by Tara
+                        for your personal skin goals and concerns.
+                        <br> <br>
+                        Skin Boosters are hydrating microinjections of a soft, gel-like substance called Hyaluronic Acid
+                        (HA) into the skin, which improves the skin’s firmness, elasticity and radiance.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="thirdSkinTreatmentComponent" style="padding-left: 5%; padding-right: 5%; padding-bottom: 8%;">
+            <h3 class="h3Font" style="padding-bottom: 3%;">Treatments</h3>
+            <div class="row">
+                <div class="col-12">
+                    <div class="img-gradient1">
+                        <h4 style=" bottom: 22%;     left: 5%;">MILLION DOLLAR FACIAL</h4>
+                        <p style="top:80%; left: 5%; width: 70%;">Designed to deeply exfoliate dead skin cells, remove
+                            hair, polish the skin, flush toxins, and
+                            stimulate our natural collagen and cell turnover.</p>
+                        <button style="top:80%; left: 78%; width: 15%;">Learn More</button>
+                        <img src="images/TreatmentsPage/skinTreatment1.png">
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" style="padding-right: 0%;">
+                    <div class="img-gradient2">
+                        <h4 style=" bottom: 22%;     left: 5%;">DERMAPLANING</h4>
+                        <p style="top:78%; left: 5%; width: 70%;">Is an exfoliating treatment that removes the top most
+                            layer of dead skin as well as the vellus hair on your face, aka, peach fuzz! Leaving you
+                            with glowing fresh skin.</p>
+                        <button style="top:90%; left: 5%; width: 25%;">Learn More</button>
+                        <img src="images/TreatmentsPage/skinTreatment4.png">
+
+                    </div>
+                </div>
+                <div class="col" style="padding-left: 1%;">
+                    <div class="img-gradient5">
+                        <h4 style=" bottom: 20%;     left: 5%;">LED LIGHT THERAPY</h4>
+                        <p style="top:80%; left: 5%; width: 80%;">Uses bright light-emitting diodes that send low-level
+                            light energy into the deeper layers of the skin. Minimising fine lines and wrinkles, reduce
+                            redness and more!</p>
+                        <button style="top:90%; left: 65%; width: 25%;">Learn More</button>
+                        <img src="images/TreatmentsPage/skinTreatment3.png">
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="row" style="padding-top:1%">
+                <div class="col" style="padding-right: 0%;">
+                    <div class="img-gradient4">
+                        <h4 style=" bottom: 30%;     left: 5%;">LIPOFIRM FAT REDUCTION</h4>
+                        <p style="top:70%; left: 5%; width: 70%;">Uses radio frequencies, muscle activation and heat to
+                            break down fat. The muscle activating mechanical pressures cause the muscles to contract
+                            throughout the process having firming effect..</p>
+                        <button style="top:90%; left: 72%; width: 25%;">Learn More</button>
+                        <img src="images/TreatmentsPage/skinTreatment2-2.png">
+
+                    </div>
+                </div>
+                <div class="col" style="padding-left: 1%;">
+                    <div class="img-gradient3">
+                        <h4 style=" bottom: 34%;     left: 5%;">DERMAROLLING</h4>
+                        <p style="top:67%; left: 5%; width: 80%;">Designed to deeply exfoliate dead skin cells, remove
+                            hair, polish the skin, flush toxins, and
+                            stimulate our natural collagen and cell turnover.</p>
+                        <button style="top:85%; left: 5%; width: 25%;">Learn More</button>
+                        <img src="images/TreatmentsPage/skinTreatment5.png">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="thirdFooterComponent" style="padding-top:1%; padding-bottom: 5%; margin-bottom: 3%;">
+            <h3>Book Now</h3>
+            <div class="row" style="background-color: rgba(122, 137, 110, 0);">
+                <div class="col-md-6 col-sm-12 col-xs-12"
+                    style="text-align: center; border-right: 0.1px solid #1d321e9b; background-color: rgba(122, 137, 110, 0);">
+                    <h4>A Virtual Conversation</h4>
+                    <h5>An introduction to the Twoth approach with one of our
+                        advisors who will answer your questions and help you begin a
+                        unique journey.</h5>
+                    <button>
+                        BOOK CONVERSATION
+                    </button>
+                </div>
+
+                <div class="col-md-6 col-sm-12 col-xs-12"
+                    style="text-align: center; background-color: rgba(122, 137, 110, 0);">
+                    <h4>An In-Person Consultation</h4>
+                    <h5>We are excited to welcome you into our clinic in London.
+                        Book your complimentary visit with one of our
+                        renowned clinicians.</h5>
+                    <button>
+                        BOOK CONSULTATION
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="sixthTreatmentComponent" style="margin-bottom: 2%;">
+            <h3 class="h3Font">Benefits of Mesotherapy </h3>
+            <div class="row" style="padding:4%;">
+                <div class="col-6">
+                    <hr>
+                    <h5> <img src="images/TreatmentsPage/leaf.svg" style="padding-right: 2%; display: inline;"> Promote Hair Growth</h5>
+                    <p style="font-size: 1.2em;">Multiple sessions are required to get to the hair growth stage, by
+                        stimulating blood flow and
+                        providing essential nutrients, the hair follicle is encouraged to produce stronger, denser hair
+                        growth.</p>
+                </div>
+
+                <div class="col-6">
+                    <hr>
+                    <h5> <img src="images/TreatmentsPage/eye.svg" style="padding-right: 2%; display: inline;"> Improve the Overall
+                        Appearance of the Skin</h5>
+                    <p style="font-size: 1.2em;">A typical mesotherapy blend might contain 50 ingredients to nourish,
+                        repair and rejuvenate skin.
+                        Leaving you with a complexion that is overall more refreshed, even and glowing!
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="row" style="padding:4%; padding-top: 0%;">
+                <div class="col-6">
+                    <hr>
+                    <h5> <img src="images/TreatmentsPage/graph.svg" style="padding-right: 2%; display: inline;"> Help Reduce Cellulite
+                    </h5>
+                    <p style="font-size: 1.2em;">By injecting fat dissolving enzymes we can use mesotherapy to help to
+                        reduce excess fat and
+                        tighten loose skin.
+                    </p>
+                </div>
+
+                <div class="col-6">
+                    <hr>
+                    <h5> <img src="images/TreatmentsPage/smiley.svg" style="padding: 2%;  display: inline;"> Address Pigmentation
+                        Issues and Scarring</h5>
+                    <p style="font-size: 1.2em;">By using ingredients that help to reduce unwanted pigmentation by
+                        controlling the rate of pigment
+                        production in the skin, we can target issues such as sun spots. For scarring, we can tailor the
+                        mesotherapy to include hyaluronic acid which helps add volume to the skin. Your mesotherapy is
+                        tailored to your skin needs.
+                    </p>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="secondHomeComponent" style="margin-bottom: 5%;">
             <h2>Why people love Twoth</h2>
             <div class="tab">
                 <button class="tablinks Amazing staff active" onclick="openTab(event, 'Amazing staff')"
@@ -827,25 +1004,48 @@
             </script>
         </div>
 
-        <div class="thirdHomeComponent">
-            <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
 
-                <div class="col-6" style="padding:0.5%">
-                    <img src="images/interior-2.png" style="width:100%;">
-                </div>
-                <div class="col-6" style="padding:0.5%">
-                    <img src="images/interior-3.png" style="width:100%;">
-                </div>
-                <div class="col-6" style="padding:0.5%">
-                    <img src="images/interior-1.png" style="width:100%;">
-                </div>
-                <div class="col-6" style="padding:0.5%">
-                    <img src="images/interior-4.png" style="width:100%;">
+        <div class="seventhHomeComponent">
+            <div class="fluid-container" style="background:rgba(151, 74, 22, 0.1);">
+                <div class="row" style="background:rgba(151, 74, 22, 0);">
+                    <div class="col-6" style="background:rgba(151, 74, 22, 0);">
+                        <h5>Vetted by our world class <br>
+                            clinical team</h5>
+                        <h6>
+                            <b>Dr Fulan <br>
+                                GDC: 254519 <br>
+                                Lead Medical Facial Aesthetician at Twoth</b> <br>
+                            Since graduating as a dentist from King’s College London, Dr <br> Fulan has helped many
+                            patients
+                            achieve their desired aesthetic <br> goals. Dr Tara prides herself on her ability to help
+                            even
+                            the most <br> anxious patients feel calm, and provides a welcoming and <br> relaxed
+                            environment.
+                            Constantly with all patient’s best interest <br> at heart, she provides an honest and
+                            strategic
+                            approach to her <br> work. <br>
+                            Dr Fulan has a particular talent for facial aesthetics, and is fully <br> certified to
+                            provide a
+                            wide range of treatments from anti-wrinkle <br> injections, dermal fillers, facial threads,
+                            fat
+                            dissolving injections, <br> skin care, and scalp micropigmentation.
+                            Dr Fylan understands the importance of broadening and <br> improving her skills, and is
+                            constantly adding to the list of <br> treatments that can be confidently offered to her
+                            patients.
+                            By <br> continually attending advanced training courses, she ensures <br> her skills and
+                            knowledge are
+                            repeatedly refreshed and updated <br> so she can provide expert safe and ethical treatment.
+                        </h6>
+                    </div>
+                    <div class="col-6" style="background:rgba(151, 74, 22, 0);">
+                        <img src="images/DrTara.png" alt="Dr Tara" style="width: 100%; height: 100%;">
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="thirdFooterComponent">
+
+        <div class="thirdFooterComponent" style="padding-top:1%; padding-bottom: 8%; margin-bottom: 8%;">
             <h3>Book Now</h3>
             <div class="row" style="background-color: rgba(122, 137, 110, 0);">
                 <div class="col-md-6 col-sm-12 col-xs-12"
@@ -870,178 +1070,164 @@
                     </button>
                 </div>
             </div>
-            <hr style="border: 0.3px solid #1d321e9b;">
-            <h3 style="padding-top: 4%; padding-bottom: 3%;">Two Locations in London </h3>
-            <div class="row" style="background-color: rgba(122, 137, 110, 0);">
-                <div class="col-md-6 col-sm-12 col-xs-12"
-                    style="text-align: center; border-right: 0.1px solid #1d321e9b; background-color: rgba(122, 137, 110, 0);">
-                    <h4 style="color: rgba(151, 74, 22, 0.9);">St Johns Wood </h4>
-                    <h5 style="text-align: left; padding-left: 30%;">74 St John's Wood High Street <br>
-                        St John's Wood <br>
-                        London <br>
-                        NW8 7SH <br> <br>
-                        hello@twoth.com <br>
-                        0203 505 9123</h5>
-                </div>
+        </div>
 
-                <div class="col-md-6 col-sm-12 col-xs-12"
-                    style="text-align: center; background-color: rgba(122, 137, 110, 0);">
-                    <h4 style="color: rgba(151, 74, 22, 0.9);">Fitzovia</h4>
-                    <h5 style="text-align: left;  padding-left: 35%;">14 Rathbone Place<br>
-                        Fitzrovia <br>
-                        London <br>
-                        W1T 1JZ<br> <br>
-                        hello@twoth.com <br>
-                        0203 505 9123</h5>
-                </div>
+        <div class="fifthProfileComponent">
+            <img src="images/Tolstoy.png">
+            <h2>Record a video with your questions and we will send you a video back</h2>
+
+            <h5>
+                Raise your queries about any of our treatments using our quick and easy tool that allows you to send
+                a video, audio or text and we will respond back right away! Get a more specific response related to
+                your query.
+            </h5>
+            <div>
+                Why leave us a message
+                <ul>
+                    <li>Get a face profile and smile review directly from a clinician</li>
+                    <li>Discuss a specific skin area and have virtual consultation in total privacy</li>
+                    <li>Discuss finance options with our treatment coordinators</li>
+                </ul>
             </div>
         </div>
 
-        <div class="fifthHomeComponent">
-            <div class="row" style="width: 90%; margin: auto;">
-                <div class="col-3">
-                    <img src="images/Twoth Old Woman Smile (1).png">
-                    <h5>Dental Exam</h5>
-                    <h6>Cleaning, x-rays,and <br> oral exam.</h6>
-                    <button>Learn More</button>
-                </div>
-                <div class="col-3">
-                    <img src="images/invasialign.png">
-                    <h5>Invisalign Braces </h5>
-                    <h6>Care-free, can’t <br> see straightening.</h6>
-                    <button onclick="location.href='invisalign-clear-braces.html';">Learn More</button>
-                </div>
-                <div class="col-3">
-                    <img src="images/Twoth Composite Bonding.png">
-                    <h5>Cosmetic</h5>
-                    <h6>Whiten or redesign <br> your smile.</h6>
-                    <button>Learn More</button>
-                </div>
-                <div class="col-3">
-                    <img src="images/Twoth Child Brushing Electric Brush.png">
-                    <h5>Children’s Dentistry</h5>
-                    <h6>Fillings, implants, <br> crowns, and more.</h6>
-                    <button>Learn More</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="sixthHomeComponent">
-            <div class="container" style="background: rgba(78, 97, 62, 0);">
-                <div class="tabeo">
-                    Twoth + <img src="images/tabeo.svg" style="background: rgba(78, 97, 62, 0); padding-bottom: 0.6%; ">
-                    <h4>We've partnered with Tabeo to offer monthly <br>
-                        financing for <b>as low as</b> </h4>
-                </div>
-                <div class="row" style="text-align: center;  background: rgba(78, 97, 62, 0); padding-bottom: 4%;">
-                    <div class="col" style="border-right: 0.1px solid #1d321e9b; background: rgba(78, 97, 62, 0);">
-                        <h1> &pound0</h1>
-                        <h6>Down payment</h6>
-                    </div>
-                    <div class="col" style="border-right: 0.1px solid #1d321e9b; background: rgba(78, 97, 62, 0);">
-                        <h1> 0%</h1>
-                        <h6>APR*</h6>
-                    </div>
-                    <div class="col" style=" background: rgba(78, 97, 62, 0)">
-                        <h1>&pound0</h1>
-                        <h6>Hidden fees</h6>
-                    </div>
-                </div>
-                <div class="tabeoText">
-                    *Your rate will be 0% APR or 10-30% APR based on credit, and is subject to an eligibility check. For
-                    example, a $4,750 purchase might cost <br>
-                    $98.95/mo over 48 months at 0% APR. Note you must complete your in-person consult and accept
-                    treatment by 7/31 in order to be eligible <br> for the <br>
-                    $250 off promotion. Payment options through Affirm are provided by these lending partners:
-                    affirm.com/lenders. Options depend on your <br>
-                    purchase amount, and a down payment may be required
-                </div>
+        <div id="faq-content" style="padding-left:7%; padding-right:7%; padding-bottom: 5%; text-align: center;">
+            <h3 class="h3Font">Frequently Asked Questions</h3>
+            <button class="accordion">What is Mesotherapy and what does it do?<img src="images/arrowdown.svg"
+                    style="float: right;  background-color: rgba(122, 137, 110, 0);"></button>
+            <div class="panel">
+                <p>Venenatis sem a commodo sed mauris consectetur aliquam. Morbi varius non vitae diam. Tristique
+                    volutpat, pellentesque sed ullamcorper et dis odio. Diam egestas ut quis nisl quis. Odio faucibus
+                    sed pulvinar libero vulputate urna in et. Dignissim sed pulvinar nisl diam in quam erat elementum.
+                </p>
             </div>
 
-        </div>
-
-        <hr>
-        <div class="seventhHomeComponent">
-            <h3>A top-rated clinical team</h3>
-            <div class="fluid-container" style="background:rgba(151, 74, 22, 0.1);">
-                <div class="row" style="background:rgba(151, 74, 22, 0);">
-                    <div class="col-6" style="background:rgba(151, 74, 22, 0);">
-                        <h5>Vetted by our world class <br>
-                            clinical team</h5>
-                        <h6>
-                            <b>Dr Fulan <br>
-                                BDS (Lond) UK 1988, (GDC: 63959) <br>
-                                Clinical Director at Twoth</b> <br>
-                            Dr Fulan is an internationally recognised specialist in <br> orthodontics. He is registered
-                            as a
-                            specialist in the U.K, <br> having obtained his dental degree at Kings College <br> London
-                            and
-                            orthodontic qualification at New York <br> University, USA. Fulan has lectured
-                            internationally in <br>
-                            orthodontics and is known for his ‘face driven’ treatments <br> without the need for
-                            extraction
-                            of teeth. One of very few <br> USA trained specialists in the UK,<br>
-                            In January 2019 Dr Fulan achieved a Masters with <br> Distinction in Stem Cell Therapies at
-                            Kings
-                            College <br> London where he gained further insight into facial growth <br> and development
-                            and the
-                            latest rejuvenating treatments. <br> He is a thought leader in ‘The Art of Orthodontics’ and
-                            is <br>
-                            committed to healthy, beautiful smiles for adolescents <br> and adults.
-                        </h6>
-                    </div>
-                    <div class="col-6" style="background:rgba(151, 74, 22, 0);">
-                        <img src="images/DrNeil.png" alt="Dr Neil" style="width: 100%;">
-                    </div>
-                </div>
+            <button class="accordion">What is a chemical peel and what does it do?<img src="images/arrowdown.svg"
+                    style="float: right;  background-color: rgba(122, 137, 110, 0);"></button>
+            <div class="panel">
+                <p>Venenatis sem a commodo sed mauris consectetur aliquam. Morbi varius non vitae diam. Tristique
+                    volutpat, pellentesque sed ullamcorper et dis odio. Diam egestas ut quis nisl quis. Odio faucibus
+                    sed pulvinar libero vulputate urna in et. Dignissim sed pulvinar nisl diam in quam erat elementum.
+                </p>
             </div>
+
+            <button class="accordion">How do I know which skin treatment is best for me? <img src="images/arrowdown.svg"
+                    style="float: right;  background-color: rgba(122, 137, 110, 0);"></button>
+            <div class="panel">
+                <p>Venenatis sem a commodo sed mauris consectetur aliquam. Morbi varius non vitae diam. Tristique
+                    volutpat, pellentesque sed ullamcorper et dis odio. Diam egestas ut quis nisl quis. Odio faucibus
+                    sed pulvinar libero vulputate urna in et. Dignissim sed pulvinar nisl diam in quam erat elementum.
+                </p>
+            </div>
+
+            <button class="accordion"> Is there any downtime? <img src="images/arrowdown.svg"
+                    style="float: right;  background-color: rgba(122, 137, 110, 0);"></button>
+            <div class="panel">
+                <p>Venenatis sem a commodo sed mauris consectetur aliquam. Morbi varius non vitae diam. Tristique
+                    volutpat, pellentesque sed ullamcorper et dis odio. Diam egestas ut quis nisl quis. Odio faucibus
+                    sed pulvinar libero vulputate urna in et. Dignissim sed pulvinar nisl diam in quam erat elementum.
+                </p>
+            </div>
+
+            <button class="accordion">Does it hurt? <img src="images/arrowdown.svg"
+                    style="float: right;  background-color: rgba(122, 137, 110, 0);"></button>
+            <div class="panel">
+                <p>Venenatis sem a commodo sed mauris consectetur aliquam. Morbi varius non vitae diam. Tristique
+                    volutpat, pellentesque sed ullamcorper et dis odio. Diam egestas ut quis nisl quis. Odio faucibus
+                    sed pulvinar libero vulputate urna in et. Dignissim sed pulvinar nisl diam in quam erat elementum.
+                </p>
+            </div>
+
+            <button class="accordion">What after-care advice should I follow? <img src="images/arrowdown.svg"
+                    style="float: right;  background-color: rgba(122, 137, 110, 0);"></button>
+            <div class="panel">
+                <p>Venenatis sem a commodo sed mauris consectetur aliquam. Morbi varius non vitae diam. Tristique
+                    volutpat, pellentesque sed ullamcorper et dis odio. Diam egestas ut quis nisl quis. Odio faucibus
+                    sed pulvinar libero vulputate urna in et. Dignissim sed pulvinar nisl diam in quam erat elementum.
+                </p>
+            </div>
+
+
+            <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+
+                for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function () {
+                        /* Toggle between adding and removing the "active" class,
+                        to highlight the button that controls the panel */
+                        this.classList.toggle("active");
+
+                        /* Toggle between hiding and showing the active panel */
+                        var panel = this.nextElementSibling;
+                        if (panel.style.display === "block") {
+                            panel.style.display = "none";
+                            var c = this.childNodes;
+                            c[1].src = "images/arrowdown.svg"
+
+                        } else {
+                            panel.style.display = "block";
+                            var c = this.childNodes;
+                            c[1].src = "images/arrowup.svg"
+                        }
+                    });
+                }
+            </script>
         </div>
 
         <div class="eighthHomeComponent">
+            <h3 class="h3Font" style="padding-bottom:5% ;">Meet Our Team</h3>
             <div class="row" style="text-align: center;">
                 <div class="col-4">
-                    <img src="images/DrSandy.png" alt="Dr Sandy" style="width: 60%; height:90%">
+                    <img src="images/profilepic.jpeg" alt="Dr Sandy" style="width: 60%; height:95%">
                 </div>
                 <div class="col-4">
-                    <img src="images/DrCamilla.jpeg" alt="Dr Sandy" style="width: 60%; height:90%">
+                    <img src="images/Dr Mohsin.png" alt="Dr Sandy" style="width: 60%; height:95%">
                 </div>
                 <div class="col-4">
-                    <img src="images/profilepic.jpeg" alt="Dr Fulan" style="width: 60%; height:90%">
+                    <img src="images/profilepic.jpeg" alt="Dr Fulan" style="width: 60%; height:95%">
                 </div>
             </div>
             <div class="row" id='teamCards'>
                 <div class="col-4">
                     <h3> Dr Fulan</h3>
                     <hr>
-                    <h4> <b>Invisalign Dentist</b> </h4>
-                    <h5>TREATMENTS</h5>
-                    <h4>Invisalign Clear Braces
-                        <br> <br> <br> <br>
-                    </h4>
-                    <hr>
-                    <a href="/">More about Dr Fulan</a>
-
-                </div>
-                <div class="col-4">
-                    <h3>Dr Fulan </h3>
-                    <hr>
-                    <h4> <b>Cosmetic Dentist</b> </h4>
-                    <h5>TREATMENTS</h5>
-                    <h4>Cosmetic Dentistry <br>
-                        Composite Bonding <br>
-                        Porcelain Veneers <br>
-                        Smile Makeovers</h4>
-                    <hr>
-                    <a href="/">More about Dr Fulan</a>
-
-                </div>
-                <div class="col-4">
-                    <h3>Dr Fulan </h3>
-                    <hr>
-                    <h4> <b>Hygienist</b> </h4>
+                    <h4> <b>Facial Aesthetician</b> </h4>
                     <h5>TREATMENTS</h5>
                     <h4>Facial Aesthetics <br>
-                        Wrinkle Treatments <br> <br> <br>
+                        Wrinkle Treatments <br>
+                        Dermal Fillers <br>
+                        Skin Treatments & Mesotherapy <br>
+                        Micropigmentation & Threads
+                    </h4>
+                    <hr>
+                    <a href="/">More about Dr Fulan</a>
+
+                </div>
+                <div class="col-4">
+                    <h3>Dr Fulan </h3>
+                    <hr>
+                    <h4> <b>Facial Aesthetician</b> </h4>
+                    <h5>TREATMENTS</h5>
+                    <h4>Facial Aesthetics <br>
+                        Wrinkle Treatments <br>
+                        Dermal Fillers <br>
+                        Skin Treatments & Mesotherapy <br>
+                        Micropigmentation & Threads </h4>
+                    <hr>
+                    <a href="/">More about Dr Fulan</a>
+
+                </div>
+                <div class="col-4">
+                    <h3>Dr Fulan </h3>
+                    <hr>
+                    <h4> <b>Facial Aesthetician</b> </h4>
+                    <h5>TREATMENTS</h5>
+                    <h4>Facial Aesthetics <br>
+                        Wrinkle Treatments <br>
+                        Dermal Fillers <br>
+                        Skin Treatments & Mesotherapy <br>
+                        Micropigmentation & Threads
                     </h4>
                     <hr>
                     <a href="/">More about Dr Fulan</a>
@@ -1051,33 +1237,6 @@
             </div>
         </div>
 
-        <hr>
-
-        <div class="ninthHomeComponent">
-            <div class="row" style="width: 90%; margin: auto;">
-                <div class="col-6">
-                    <h2>Pain Free Dentistry with the Enjoyable Dentistry Technique</h2>
-                    <h4>A visit to the dentist should not be painful. <br>
-                        So all our treatments include nitrous oxide <br> and oxygen sedation with relaxation
-                        instructions <br> and
-                        guided mediation for a pain free <br> relaxing experience. </h4>
-                </div>
-                <div class="col-6">
-                    <img src="images/Man Smiling on Chair.png" alt="Man Smiling on Chair"
-                        style="width: 100%; height:90% ;">
-                </div>
-            </div>
-        </div>
-
-        <hr style="margin-top: 1%;">
-
-        <div class="tenthHomeComponent">
-            <h2>It's normal to feel anxious about visiting <br> the dentist. We can help.</h2>
-            <h4>Treating nervous patients requires a high level of care to consider the apprehensions and anxiety of the
-                patient. Too often patients suffer through tooth pain and too reluctant to visit the dentist to have it
-                checked out of anxiety and fear of pain during treatment.</h4>
-
-        </div>
     </div>
     <footer class="panel-footer">
 
